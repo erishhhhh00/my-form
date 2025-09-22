@@ -10,8 +10,8 @@ const Index = () => {
         {/* Header */}
         <div className="space-y-4">
           <div className="flex items-center justify-center mb-4">
-            <div className="bg-red-500 text-white px-4 py-2 text-lg font-bold mr-3">SSIPL</div>
-            <div className="text-4xl font-bold">Shield Skills Institute</div>
+            <div className="bg-red-500 text-white px-4 py-2 text-xl font-bold mr-3 shadow-lg h-16 flex items-center" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)', transform: 'perspective(500px) rotateX(10deg)' }}>SSIPL</div>
+            <div className="text-5xl font-bold" style={{ textShadow: '3px 3px 6px rgba(0,0,0,0.4)', transform: 'perspective(500px) rotateX(5deg)' }}>Shield Skills Institute</div>
           </div>
           <div className="text-lg text-muted-foreground">Training Academy LLP</div>
           <h1 className="text-3xl font-bold mt-4">Fall Arrest & Rescue Management</h1>

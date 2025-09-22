@@ -43,19 +43,23 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
   };
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
-      <Card className="w-full max-w-md p-8">
-        <div className="text-center mb-8">
-          <div className="flex items-center justify-center mb-4">
-            <Shield className="h-12 w-12 text-primary mr-3" />
-            <div>
-              <div className="flex items-center justify-center mb-2">
-                <div className="bg-red-500 text-white px-3 py-1 text-sm font-bold mr-2">SSIPL</div>
-                <div className="text-xl font-bold">Shield Skills Institute</div>
-              </div>
-              <div className="text-sm text-muted-foreground">Training Academy LLP</div>
+    <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
+      {/* Header outside the card */}
+      <div className="text-center mb-8">
+        <div className="flex items-center justify-center mb-4">
+          <Shield className="h-16 w-16 text-primary mr-3" />
+          <div>
+            <div className="flex items-center justify-center mb-2">
+              <div className="bg-red-500 text-white px-4 py-2 text-xl font-bold mr-3 shadow-lg h-16 flex items-center" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)', transform: 'perspective(500px) rotateX(10deg)' }}>SSIPL</div>
+              <div className="text-5xl font-bold" style={{ textShadow: '3px 3px 6px rgba(0,0,0,0.4)', transform: 'perspective(500px) rotateX(5deg)' }}>Shield Skills Institute</div>
             </div>
+            <div className="text-lg text-muted-foreground">Training Academy LLP</div>
           </div>
+        </div>
+      </div>
+
+      <Card className="w-full max-w-md h-96 p-8">
+        <div className="text-center mb-8">
           <h1 className="text-2xl font-bold">Admin Login</h1>
           <p className="text-muted-foreground mt-2">Access the admin dashboard</p>
         </div>
@@ -96,15 +100,16 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
             {isLoading ? 'Logging in...' : 'Login'}
           </Button>
         </form>
-
-        <div className="mt-6 p-4 bg-muted rounded-lg">
-          <h4 className="font-semibold text-sm mb-2">Demo Credentials:</h4>
-          <div className="text-xs text-muted-foreground space-y-1">
-            <div><span className="font-medium">Email:</span> erishhhh@demo.com</div>
-            <div><span className="font-medium">Password:</span> admin@11</div>
-          </div>
-        </div>
       </Card>
+
+      {/* Demo Credentials outside the main card */}
+      <div className="mt-6 p-4 bg-muted rounded-lg max-w-md">
+        <h4 className="font-semibold text-sm mb-2">Demo Credentials:</h4>
+        <div className="text-xs text-muted-foreground space-y-1">
+          <div><span className="font-medium">Email:</span> erishhhh@demo.com</div>
+          <div><span className="font-medium">Password:</span> admin@11</div>
+        </div>
+      </div>
     </div>
   );
 };
