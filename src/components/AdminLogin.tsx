@@ -50,13 +50,13 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
             <Shield className="h-12 w-12 text-primary mr-3" />
             <div>
               <div className="flex items-center justify-center mb-2">
-                <div className="bg-red-500 text-white px-3 py-1 text-sm font-bold mr-2">MHTA</div>
-                <div className="text-xl font-bold">MediHSE</div>
+                <div className="bg-red-500 text-white px-3 py-1 text-sm font-bold mr-2">SSIPL</div>
+                <div className="text-xl font-bold">Shield Skills Institute</div>
               </div>
               <div className="text-sm text-muted-foreground">Training Academy LLP</div>
             </div>
           </div>
-          <h2 className="text-2xl font-bold">Admin Login</h2>
+          <h1 className="text-2xl font-bold">Admin Login</h1>
           <p className="text-muted-foreground mt-2">Access the admin dashboard</p>
         </div>
 
