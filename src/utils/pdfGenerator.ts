@@ -525,7 +525,7 @@ const generateFormHeader = () => {
             <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 4px;">
               <div class="mhta-badge">SSIPL</div>
               <div class="medihse-title">Shield Skills Institute</div>
-            </div>
+      </div>
           </div>
           <div style="width: 87px; height: 73px; display: flex; align-items: center; justify-content: center;">
             <img 
@@ -582,14 +582,14 @@ const generatePage1HTML = (formData: FormData) => {
             <div style="border: 1px solid #000; padding: 12px; height: 80px; margin-bottom: 12px;">
               <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Learner name</label>
               <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.learnerName || ''}</div>
-            </div>
-            
+          </div>
+          
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
               <div style="border: 1px solid #000; padding: 12px; height: 80px;">
                 <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">ID number</label>
                 <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.idNumber || ''}</div>
-              </div>
-              
+          </div>
+          
               <div style="border: 1px solid #000; padding: 12px; height: 80px;">
                 <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Company Name</label>
                 <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.companyName || ''}</div>
@@ -601,8 +601,8 @@ const generatePage1HTML = (formData: FormData) => {
             <div style="border: 1px solid #000; padding: 12px; height: 80px;">
               <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Date</label>
               <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.date || ''}</div>
-            </div>
-            
+          </div>
+          
             <div style="border: 1px solid #000; padding: 12px; height: 80px;">
               <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">UID</label>
               <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.uid || ''}</div>
