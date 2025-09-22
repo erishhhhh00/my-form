@@ -520,11 +520,21 @@ const getAllFormPagesHTML = async (formData: FormData) => {
 const generateFormHeader = () => {
   return `
     <div class="form-header">
-      <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 8px;">
-        <div class="mhta-badge">MHTA</div>
-        <div class="medihse-title">MediHSE</div>
-      </div>
-      <div class="subtitle">Training Academy LLP</div>
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+          <div style="flex: 1; text-align: center;">
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 4px;">
+              <div class="mhta-badge">SSIPL</div>
+              <div class="medihse-title">Shield Skills Institute</div>
+            </div>
+          </div>
+          <div style="width: 87px; height: 73px; display: flex; align-items: center; justify-content: center;">
+            <img 
+              src="/images/logo.png" 
+              alt="Shield Skills Institute Logo" 
+              style="width: 87px; height: 73px; object-fit: contain;"
+            />
+          </div>
+        </div>
     </div>
   `;
 };
@@ -567,32 +577,36 @@ const generatePage1HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- Learner Information Section -->
-        <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; margin: 20px 0;">
-          <div style="border: 1px solid #000; padding: 12px;">
-            <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Learner name</label>
-            <div style="border-bottom: 1px solid #000; height: 25px; font-size: 10px; padding: 4px;">${page1.learnerName || ''}</div>
+        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 12px; margin: 20px 0;">
+          <div>
+            <div style="border: 1px solid #000; padding: 12px; height: 80px; margin-bottom: 12px;">
+              <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Learner name</label>
+              <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.learnerName || ''}</div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              <div style="border: 1px solid #000; padding: 12px; height: 80px;">
+                <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">ID number</label>
+                <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.idNumber || ''}</div>
+              </div>
+              
+              <div style="border: 1px solid #000; padding: 12px; height: 80px;">
+                <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Company Name</label>
+                <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.companyName || ''}</div>
+              </div>
+            </div>
           </div>
           
-          <div style="border: 1px solid #000; padding: 12px;">
-            <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Date</label>
-            <div style="border-bottom: 1px solid #000; height: 25px; font-size: 10px; padding: 4px;">${page1.date || ''}</div>
-          </div>
-          
-          <div style="border: 1px solid #000; padding: 12px;">
-            <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">UID</label>
-            <div style="border-bottom: 1px solid #000; height: 25px; font-size: 10px; padding: 4px;">${page1.uid || ''}</div>
-          </div>
-          </div>
-          
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px;">
-          <div style="border: 1px solid #000; padding: 12px;">
-            <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">ID number</label>
-            <div style="border-bottom: 1px solid #000; height: 25px; font-size: 10px; padding: 4px;">${page1.idNumber || ''}</div>
-          </div>
-          
-          <div style="border: 1px solid #000; padding: 12px;">
-            <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Company Name</label>
-            <div style="border-bottom: 1px solid #000; height: 25px; font-size: 10px; padding: 4px;">${page1.companyName || ''}</div>
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div style="border: 1px solid #000; padding: 12px; height: 80px;">
+              <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">Date</label>
+              <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.date || ''}</div>
+            </div>
+            
+            <div style="border: 1px solid #000; padding: 12px; height: 80px;">
+              <label style="font-size: 10px; font-weight: bold; display: block; margin-bottom: 6px;">UID</label>
+              <div style="border-bottom: 1px solid #000; height: 35px; font-size: 10px; padding: 4px;">${page1.uid || ''}</div>
+            </div>
           </div>
         </div>
         
@@ -655,7 +669,6 @@ const generatePage2HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <h2 style="text-align: center; font-size: 16px; font-weight: bold; margin: 15px 0;">PORTFOLIO OF EVIDENCE (POE) – FARM ToCli</h2>
         
         <!-- 1. LEARNER INFORMATION FOR REGISTRATION FORM -->
         <table class="table" style="width: 100%; border-collapse: collapse; margin: 15px 0; border: 2px solid #000;">

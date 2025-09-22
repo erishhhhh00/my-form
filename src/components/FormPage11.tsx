@@ -37,11 +37,22 @@ const FormPage11: React.FC = () => {
         <div className="form-content" style={{ fontSize: '11px', lineHeight: '1.3' }}>
           {/* Header */}
           <div className="text-center mb-2 sm:mb-3 form-section">
+        <div className="flex items-center justify-between mb-1">
+          <div className="flex-1 text-center">
             <div className="flex items-center justify-center mb-1">
-              <div className="bg-red-500 text-white px-2 py-1 text-xs font-bold mr-2">MHTA</div>
-              <div className="text-lg font-bold">MediHSE</div>
+              <div className="bg-red-500 text-white px-2 py-1 text-xs font-bold mr-2">SSIPL</div>
+              <div className="text-lg font-bold">Shield Skills Institute</div>
             </div>
-            <div className="text-xs text-muted-foreground">Training Academy LLP</div>
+          </div>
+          <div className="flex items-center justify-center">
+            <img 
+              src="/images/logo.png" 
+              alt="Shield Skills Institute Logo" 
+              className="object-contain"
+              style={{ width: '87px', height: '73px' }}
+            />
+          </div>
+        </div>
           </div>
 
           {/* Question 31 */}

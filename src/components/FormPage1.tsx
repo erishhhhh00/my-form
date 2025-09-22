@@ -21,58 +21,58 @@ const FormPage1: React.FC = () => {
       {/* Header Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-1 sm:gap-2 mb-2 sm:mb-3">
         <div className="md:col-span-2">
-          <div className="border-2 border-form-border p-1 mb-1">
+          <div className="border-2 border-form-border p-2 mb-2 h-20">
             <Label htmlFor="learnerName" className="text-sm font-semibold">Learner name</Label>
             <Input
               id="learnerName"
               value={pageData.learnerName}
               onChange={(e) => handleInputChange('learnerName', e.target.value)}
-              className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary"
+              className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary h-8"
             />
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-2">
-            <div className="border-2 border-form-border p-1">
+            <div className="border-2 border-form-border p-2 h-20">
               <Label htmlFor="idNumber" className="text-sm font-semibold">ID number</Label>
               <Input
                 id="idNumber"
                 value={pageData.idNumber}
                 onChange={(e) => handleInputChange('idNumber', e.target.value)}
-                className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary"
+                className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary h-8"
               />
             </div>
             
-            <div className="border-2 border-form-border p-1">
+            <div className="border-2 border-form-border p-2 h-20">
               <Label htmlFor="companyName" className="text-sm font-semibold">Company Name</Label>
               <Input
                 id="companyName"
                 value={pageData.companyName}
                 onChange={(e) => handleInputChange('companyName', e.target.value)}
-                className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary"
+                className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary h-8"
               />
             </div>
           </div>
         </div>
         
         <div className="space-y-2">
-          <div className="border-2 border-form-border p-2">
+          <div className="border-2 border-form-border p-2 h-20">
             <Label htmlFor="date" className="text-sm font-semibold">Date</Label>
             <Input
               id="date"
               type="date"
               value={pageData.date}
               onChange={(e) => handleInputChange('date', e.target.value)}
-              className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary"
+              className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary h-8"
             />
           </div>
           
-          <div className="border-2 border-form-border p-2">
+          <div className="border-2 border-form-border p-2 h-20">
             <Label htmlFor="uid" className="text-sm font-semibold">UID</Label>
             <Input
               id="uid"
               value={pageData.uid}
               onChange={(e) => handleInputChange('uid', e.target.value)}
-              className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary"
+              className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary h-8"
             />
           </div>
         </div>
@@ -80,12 +80,23 @@ const FormPage1: React.FC = () => {
 
       {/* Company Logo and Title Section */}
       <div className="text-center mb-8">
-        <div className="flex items-center justify-center mb-2">
-          <div className="bg-red-500 text-white px-3 py-1 text-sm font-bold mr-2">MHTA</div>
-          <div className="text-2xl font-bold">MediHSE</div>
+        <div className="flex items-center justify-between mb-2">
+          <div className="flex-1 text-center">
+            <div className="flex items-center justify-center mb-1">
+              <div className="bg-red-500 text-white px-3 py-1 text-sm font-bold mr-2">SSIPL</div>
+              <div className="text-2xl font-bold">Shield Skills Institute</div>
+            </div>
+            <div className="text-xl font-bold">Portfolio of Evidence(POE)</div>
+          </div>
+          <div className="flex items-center justify-center">
+            <img 
+              src="/images/logo.png" 
+              alt="Shield Skills Institute Logo" 
+              className="object-contain"
+              style={{ width: '87px', height: '73px' }}
+            />
+          </div>
         </div>
-        <div className="text-sm text-muted-foreground">Training Academy LLP</div>
-        <div className="text-xl font-bold mt-2">Portfolio of Evidence(POE)</div>
       </div>
 
       {/* Radio Tower Icon */}

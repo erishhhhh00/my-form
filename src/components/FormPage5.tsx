@@ -23,11 +23,22 @@ const FormPage5: React.FC = () => {
       <Card className="border-2 border-form-border bg-card p-1 sm:p-2 md:p-3">
         {/* Header */}
         <div className="text-center mb-2 sm:mb-3">
-          <div className="flex items-center justify-center mb-2">
-            <div className="bg-red-500 text-white px-3 py-1 text-sm font-bold mr-2">MHTA</div>
-            <div className="text-xl md:text-2xl font-bold">MediHSE</div>
+        <div className="flex items-center justify-between mb-2">
+          <div className="flex-1 text-center">
+            <div className="flex items-center justify-center mb-1">
+              <div className="bg-red-500 text-white px-3 py-1 text-sm font-bold mr-2">SSIPL</div>
+              <div className="text-xl md:text-2xl font-bold">Shield Skills Institute</div>
+            </div>
           </div>
-          <div className="text-sm text-muted-foreground">Training Academy LLP</div>
+          <div className="flex items-center justify-center">
+            <img 
+              src="/images/logo.png" 
+              alt="Shield Skills Institute Logo" 
+              className="object-contain"
+              style={{ width: '87px', height: '73px' }}
+            />
+          </div>
+        </div>
         </div>
 
         {/* Course Header */}
