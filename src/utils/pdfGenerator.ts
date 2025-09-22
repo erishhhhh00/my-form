@@ -671,102 +671,102 @@ const generatePage2HTML = (formData: FormData) => {
         
         
         <!-- 1. LEARNER INFORMATION FOR REGISTRATION FORM -->
-        <table class="table" style="width: 100%; border-collapse: collapse; margin: 15px 0; border: 2px solid #000;">
+        <table class="table" style="width: 100%; border-collapse: collapse; margin: 8px 0; border: 1px solid #000;">
           <thead>
             <tr style="background: #f3f4f6;">
-              <th colspan="2" style="text-align: left; font-weight: bold; padding: 12px; border: 1px solid #000; font-size: 13px;">1. LEARNER INFORMATION FOR REGISTRATION FORM</th>
+              <th colspan="2" style="text-align: left; font-weight: bold; padding: 6px; border: 1px solid #000; font-size: 9px;">1. LEARNER INFORMATION FOR REGISTRATION FORM</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9; width: 25%;">Name</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.name || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9; width: 25%;">Name</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.name || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Date of Birth</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.dateOfBirth || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Date of Birth</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.dateOfBirth || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Gender</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.gender || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Gender</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.gender || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Govt ID</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.govtId || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Govt ID</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.govtId || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Designation (in)</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.designation || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Designation (in)</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.designation || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Employee ID</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.employeeId || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Employee ID</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.employeeId || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Phone Number</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.phoneNumber || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Phone Number</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.phoneNumber || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">E-mail</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.email || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">E-mail</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.email || ''}</td>
             </tr>
             <tr style="background: #e5e7eb;">
-              <td style="border: 1px solid #000; padding: 4px; font-size: 10px; font-weight: bold;">Learner Emergency Contact Details/ Next of Kin</td>
-              <td style="border: 1px solid #000; padding: 4px; font-size: 10px;"></td>
+              <td style="border: 1px solid #000; padding: 2px; font-size: 7px; font-weight: bold;">Learner Emergency Contact Details/ Next of Kin</td>
+              <td style="border: 1px solid #000; padding: 2px; font-size: 7px;"></td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Phone Number</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.emergencyContactPhone || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Phone Number</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.emergencyContactPhone || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">E-mail</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.emergencyContactEmail || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">E-mail</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.emergencyContactEmail || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Relationship</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.emergencyContactRelationship || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Relationship</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.emergencyContactRelationship || ''}</td>
             </tr>
           </tbody>
         </table>
 
         <!-- Employer Details -->
-        <table class="table" style="width: 100%; border-collapse: collapse; margin: 8px 0; border: 2px solid #000;">
+        <table class="table" style="width: 100%; border-collapse: collapse; margin: 5px 0; border: 1px solid #000;">
           <thead>
             <tr style="background: #f3f4f6;">
-              <th colspan="2" style="text-align: left; font-weight: bold; padding: 6px; border: 1px solid #000; font-size: 11px;">Employer Details</th>
+              <th colspan="2" style="text-align: left; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 8px;">Employer Details</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9; width: 25%;">Employer Name</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.employerName || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9; width: 25%;">Employer Name</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.employerName || ''}</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 11px; font-weight: bold; background: #f9f9f9;">Tel Number</td>
-              <td style="border: 1px solid #000; padding: 10px; font-size: 13px; min-height: 35px;">${page2.employerTelNumber || ''}</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 8px; font-weight: bold; background: #f9f9f9;">Tel Number</td>
+              <td style="border: 1px solid #000; padding: 5px; font-size: 9px; min-height: 20px;">${page2.employerTelNumber || ''}</td>
             </tr>
           </tbody>
         </table>
 
         <!-- Course Details -->
-        <table class="table" style="width: 100%; border-collapse: collapse; margin: 8px 0; border: 2px solid #000;">
+        <table class="table" style="width: 100%; border-collapse: collapse; margin: 5px 0; border: 1px solid #000;">
           <thead>
             <tr style="background: #f3f4f6;">
-              <th colspan="4" style="text-align: left; font-weight: bold; padding: 6px; border: 1px solid #000; font-size: 11px;">Course Details</th>
+              <th colspan="4" style="text-align: left; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 8px;">Course Details</th>
             </tr>
             <tr style="background: #f3f4f6;">
-              <th colspan="2" style="text-align: center; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px;">Fall Arrest & Rescue Management (FARM)</th>
-              <th style="text-align: center; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px;">1st Attempt</th>
-              <th style="text-align: center; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px;">2nd Attempt</th>
+              <th colspan="2" style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px;">Fall Arrest & Rescue Management (FARM)</th>
+              <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px;">1st Attempt</th>
+              <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px;">2nd Attempt</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td colspan="2" style="border: 1px solid #000; padding: 4px; font-size: 10px;"></td>
-              <td style="border: 1px solid #000; padding: 4px; text-align: center;">
+              <td colspan="2" style="border: 1px solid #000; padding: 2px; font-size: 8px;"></td>
+              <td style="border: 1px solid #000; padding: 2px; text-align: center;">
                 <div class="checkbox${page2.firstAttempt ? ' checked' : ''}">${page2.firstAttempt ? '✓' : ''}</div>
               </td>
-              <td style="border: 1px solid #000; padding: 4px; text-align: center;">
+              <td style="border: 1px solid #000; padding: 2px; text-align: center;">
                 <div class="checkbox${page2.secondAttempt ? ' checked' : ''}">${page2.secondAttempt ? '✓' : ''}</div>
               </td>
             </tr>
@@ -774,45 +774,45 @@ const generatePage2HTML = (formData: FormData) => {
         </table>
 
         <!-- Acknowledgment of learning assumed to be in place by learner -->
-        <div style="margin: 8px 0;">
-          <h3 style="font-size: 11px; font-weight: bold; margin-bottom: 6px;">Acknowledgment of learning assumed to be in place by learner:</h3>
+        <div style="margin: 5px 0;">
+          <h3 style="font-size: 8px; font-weight: bold; margin-bottom: 3px;">Acknowledgment of learning assumed to be in place by learner:</h3>
           
-          <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+          <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
             <thead>
               <tr style="background: #f3f4f6;">
-                <th style="text-align: left; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px; width: 50%;">Basic Numeric Literacy</th>
-                <th style="text-align: center; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px; width: 25%;">Yes</th>
-                <th style="text-align: center; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px; width: 25%;">No</th>
+                <th style="text-align: left; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px; width: 50%;">Basic Numeric Literacy</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px; width: 25%;">Yes</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px; width: 25%;">No</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 1px solid #000; padding: 4px; font-size: 10px; width: 50%;"></td>
-                <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 25%;">
+                <td style="border: 1px solid #000; padding: 2px; font-size: 8px; width: 50%;"></td>
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 25%;">
                   <div class="radio-button${page2.basicNumericLiteracy === 'yes' ? ' selected' : ''}"></div>
                 </td>
-                <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 25%;">
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 25%;">
                   <div class="radio-button${page2.basicNumericLiteracy === 'no' ? ' selected' : ''}"></div>
                 </td>
               </tr>
             </tbody>
           </table>
 
-          <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; margin-top: 3px;">
+          <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; margin-top: 2px;">
             <thead>
               <tr style="background: #f3f4f6;">
-                <th style="text-align: left; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px; width: 50%;">Basic Communication</th>
-                <th style="text-align: center; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px; width: 25%;">Yes</th>
-                <th style="text-align: center; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px; width: 25%;">No</th>
+                <th style="text-align: left; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px; width: 50%;">Basic Communication</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px; width: 25%;">Yes</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px; width: 25%;">No</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 1px solid #000; padding: 4px; font-size: 10px; width: 50%;"></td>
-                <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 25%;">
+                <td style="border: 1px solid #000; padding: 2px; font-size: 8px; width: 50%;"></td>
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 25%;">
                   <div class="radio-button${page2.basicCommunication === 'yes' ? ' selected' : ''}"></div>
                 </td>
-                <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 25%;">
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 25%;">
                   <div class="radio-button${page2.basicCommunication === 'no' ? ' selected' : ''}"></div>
                 </td>
               </tr>
@@ -821,97 +821,97 @@ const generatePage2HTML = (formData: FormData) => {
         </div>
 
         <!-- Learner with Special Need requirement -->
-        <div style="margin: 8px 0;">
-          <h3 style="font-size: 10px; font-weight: bold; margin-bottom: 6px;">Learner with Special Need requirement (Pre-Training requirement) <span style="font-size: 9px; font-weight: normal;">(Interpreter & Witness shall only be present during assessment to assist the learner in understanding the instructions by the Assessor & they shall not be part of Evaluation process)</span></h3>
+        <div style="margin: 5px 0;">
+          <h3 style="font-size: 7px; font-weight: bold; margin-bottom: 3px;">Learner with Special Need requirement (Pre-Training requirement) <span style="font-size: 6px; font-weight: normal;">(Interpreter & Witness shall only be present during assessment to assist the learner in understanding the instructions by the Assessor & they shall not be part of Evaluation process)</span></h3>
           
           <!-- Observer or Witness Table -->
-          <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; margin-bottom: 6px;">
+          <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; margin-bottom: 3px;">
             <thead>
               <tr style="background: #f3f4f6;">
-                <th style="text-align: left; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">Observer or Witness</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 10%;">Yes</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 10%;">No</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">Name/ Surname</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">Phone Number</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">ID Number</th>
+                <th style="text-align: left; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">Observer or Witness</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 10%;">Yes</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 10%;">No</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">Name/ Surname</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">Phone Number</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">ID Number</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 1px solid #000; padding: 3px; font-size: 9px; width: 20%;"></td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; width: 10%;">
+                <td style="border: 1px solid #000; padding: 2px; font-size: 7px; width: 20%;"></td>
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 10%;">
                   <div class="radio-button${page2.observerWitnessRequired === 'yes' ? ' selected' : ''}"></div>
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; width: 10%;">
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 10%;">
                   <div class="radio-button${page2.observerWitnessRequired === 'no' ? ' selected' : ''}"></div>
                 </td>
-                <td style="border: 1px solid #000; padding: 8px; font-size: 12px; width: 20%; min-height: 32px;">${page2.observerWitnessName || ''}</td>
-                <td style="border: 1px solid #000; padding: 8px; font-size: 12px; width: 20%; min-height: 32px;">${page2.observerWitnessPhone || ''}</td>
-                <td style="border: 1px solid #000; padding: 8px; font-size: 12px; width: 20%; min-height: 32px;">${page2.observerWitnessIdNumber || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; font-size: 8px; width: 20%; min-height: 18px;">${page2.observerWitnessName || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; font-size: 8px; width: 20%; min-height: 18px;">${page2.observerWitnessPhone || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; font-size: 8px; width: 20%; min-height: 18px;">${page2.observerWitnessIdNumber || ''}</td>
               </tr>
             </tbody>
           </table>
 
           <!-- Interpreter Table -->
-          <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; margin-bottom: 6px;">
+          <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; margin-bottom: 3px;">
             <thead>
               <tr style="background: #f3f4f6;">
-                <th style="text-align: left; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">Interpreter</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 10%;">Yes</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 10%;">No</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">Name/ Surname</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">Phone Number</th>
-                <th style="text-align: center; font-weight: bold; padding: 3px; border: 1px solid #000; font-size: 9px; width: 20%;">ID Number</th>
+                <th style="text-align: left; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">Interpreter</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 10%;">Yes</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 10%;">No</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">Name/ Surname</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">Phone Number</th>
+                <th style="text-align: center; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 6px; width: 20%;">ID Number</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 1px solid #000; padding: 3px; font-size: 9px; width: 20%;"></td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; width: 10%;">
+                <td style="border: 1px solid #000; padding: 2px; font-size: 7px; width: 20%;"></td>
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 10%;">
                   <div class="radio-button${page2.interpreterRequired === 'yes' ? ' selected' : ''}"></div>
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; width: 10%;">
+                <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 10%;">
                   <div class="radio-button${page2.interpreterRequired === 'no' ? ' selected' : ''}"></div>
                 </td>
-                <td style="border: 1px solid #000; padding: 8px; font-size: 12px; width: 20%; min-height: 32px;">${page2.interpreterName || ''}</td>
-                <td style="border: 1px solid #000; padding: 8px; font-size: 12px; width: 20%; min-height: 32px;">${page2.interpreterPhone || ''}</td>
-                <td style="border: 1px solid #000; padding: 8px; font-size: 12px; width: 20%; min-height: 32px;">${page2.interpreterIdNumber || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; font-size: 8px; width: 20%; min-height: 18px;">${page2.interpreterName || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; font-size: 8px; width: 20%; min-height: 18px;">${page2.interpreterPhone || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; font-size: 8px; width: 20%; min-height: 18px;">${page2.interpreterIdNumber || ''}</td>
               </tr>
             </tbody>
           </table>
 
           <!-- Additional Requirements -->
-          <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+          <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
             <thead>
               <tr style="background: #f3f4f6;">
-                <th style="text-align: left; font-weight: bold; padding: 4px; border: 1px solid #000; font-size: 10px;">Additional Requirements</th>
+                <th style="text-align: left; font-weight: bold; padding: 2px; border: 1px solid #000; font-size: 7px;">Additional Requirements</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 1px solid #000; padding: 8px; font-size: 10px; min-height: 40px;">${page2.additionalRequirements || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; font-size: 8px; min-height: 20px;">${page2.additionalRequirements || ''}</td>
               </tr>
             </tbody>
           </table>
         </div>
 
         <!-- Signatures Section -->
-        <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; margin-top: 10px;">
+        <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; margin-top: 5px;">
           <tr>
-            <td style="border: 1px solid #000; padding: 8px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong style="font-size: 10px;">Learner Signature</strong>
-              <div style="margin-top: 10px; border-bottom: 1px solid #000; height: 35px; font-size: 13px; padding: 10px;">${page2.learnerSignature || ''}</div>
+            <td style="border: 1px solid #000; padding: 3px; width: 50%; text-align: center; background: #f9f9f9;">
+              <strong style="font-size: 7px;">Learner Signature</strong>
+              <div style="margin-top: 3px; border-bottom: 1px solid #000; height: 18px; font-size: 8px; padding: 2px;">${page2.learnerSignature || ''}</div>
             </td>
-            <td style="border: 1px solid #000; padding: 8px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong style="font-size: 10px;">Assessor / Facilitator Signature</strong>
-              <div style="margin-top: 10px; border-bottom: 1px solid #000; height: 35px; font-size: 13px; padding: 10px;">${page2.assessorSignature || ''}</div>
+            <td style="border: 1px solid #000; padding: 3px; width: 50%; text-align: center; background: #f9f9f9;">
+              <strong style="font-size: 7px;">Assessor / Facilitator Signature</strong>
+              <div style="margin-top: 3px; border-bottom: 1px solid #000; height: 18px; font-size: 8px; padding: 2px;">${page2.assessorSignature || ''}</div>
             </td>
           </tr>
         </table>
         
         <!-- Footer -->
-        <div style="text-align: center; margin-top: 20px; font-size: 10px;">
-          <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #000; padding-top: 10px;">
+        <div style="text-align: center; margin-top: 8px; font-size: 7px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #000; padding-top: 3px;">
             <span>FARM ToCli POE Version -1.0</span>
             <span>MHTA-T-008</span>
             <span>Date 23.02.2022</span>
@@ -931,79 +931,79 @@ const generatePage3HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <h2 style="text-align: center; font-size: 14px; font-weight: bold; margin: 30px 0;">ASSESSMENT METHODS</h2>
+        <h2 style="text-align: center; font-size: 10px; font-weight: bold; margin: 10px 0;">ASSESSMENT METHODS</h2>
         
-        <table class="table" style="margin: 20px 0;">
+        <table class="table" style="margin: 8px 0; font-size: 8px;">
           <thead>
             <tr>
-              <th style="background: #f3f4f6; font-weight: bold; text-align: left;">Component Type</th>
-              <th style="background: #f3f4f6; font-weight: bold; text-align: left;">Type of Evidence</th>
-              <th style="background: #f3f4f6; font-weight: bold; text-align: center; width: 60px;">Tick</th>
+              <th style="background: #f3f4f6; font-weight: bold; text-align: left; padding: 3px; border: 1px solid #000;">Component Type</th>
+              <th style="background: #f3f4f6; font-weight: bold; text-align: left; padding: 3px; border: 1px solid #000;">Type of Evidence</th>
+              <th style="background: #f3f4f6; font-weight: bold; text-align: center; width: 40px; padding: 3px; border: 1px solid #000;">Tick</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td rowspan="2" style="font-weight: bold; vertical-align: top;">Knowledge</td>
-              <td>Written</td>
-              <td style="text-align: center;">
+              <td rowspan="2" style="font-weight: bold; vertical-align: top; padding: 3px; border: 1px solid #000;">Knowledge</td>
+              <td style="padding: 3px; border: 1px solid #000;">Written</td>
+              <td style="text-align: center; padding: 3px; border: 1px solid #000;">
                 <div class="checkbox${page3.knowledgeWritten ? ' checked' : ''}">${page3.knowledgeWritten ? '✓' : ''}</div>
               </td>
             </tr>
             <tr>
-              <td>Other (Please Specify type): ${page3.knowledgeOtherSpecify || ''}</td>
-              <td style="text-align: center;">
+              <td style="padding: 3px; border: 1px solid #000;">Other (Please Specify type): ${page3.knowledgeOtherSpecify || ''}</td>
+              <td style="text-align: center; padding: 3px; border: 1px solid #000;">
                 <div class="checkbox${page3.knowledgeOtherTick ? ' checked' : ''}">${page3.knowledgeOtherTick ? '✓' : ''}</div>
               </td>
             </tr>
             <tr>
-              <td rowspan="2" style="font-weight: bold; vertical-align: top;">Practical</td>
-              <td>Practical application</td>
-              <td style="text-align: center;">
+              <td rowspan="2" style="font-weight: bold; vertical-align: top; padding: 3px; border: 1px solid #000;">Practical</td>
+              <td style="padding: 3px; border: 1px solid #000;">Practical application</td>
+              <td style="text-align: center; padding: 3px; border: 1px solid #000;">
                 <div class="checkbox${page3.practicalApplication ? ' checked' : ''}">${page3.practicalApplication ? '✓' : ''}</div>
               </td>
             </tr>
             <tr>
-              <td>Others (Please Specify): ${page3.practicalOthersSpecify || ''}</td>
-              <td style="text-align: center;">
+              <td style="padding: 3px; border: 1px solid #000;">Others (Please Specify): ${page3.practicalOthersSpecify || ''}</td>
+              <td style="text-align: center; padding: 3px; border: 1px solid #000;">
                 <div class="checkbox${page3.practicalOthersTick ? ' checked' : ''}">${page3.practicalOthersTick ? '✓' : ''}</div>
               </td>
             </tr>
           </tbody>
         </table>
         
-        <div style="margin: 30px 0;">
-          <h3 style="font-size: 16px; font-weight: bold; margin-bottom: 20px;">2. LEARNER DECLARATION OF AUTHENTICITY</h3>
-          <p style="margin-bottom: 20px; font-size: 12px;">
+        <div style="margin: 10px 0;">
+          <h3 style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">2. LEARNER DECLARATION OF AUTHENTICITY</h3>
+          <p style="margin-bottom: 8px; font-size: 8px;">
             I declare that the evidence submitted for assessment purposes is my own work and authentic.
           </p>
-          <div style="margin-bottom: 20px;">
-            <strong style="font-size: 12px;">External Source referred:</strong> ${page3.externalSourceReferred || ''}
+          <div style="margin-bottom: 8px;">
+            <strong style="font-size: 8px;">External Source referred:</strong> ${page3.externalSourceReferred || ''}
             </div>
             </div>
         
-        <div style="margin: 30px 0;">
-          <h3 style="font-size: 16px; font-weight: bold; margin-bottom: 20px;">3. ASSESSMENT CONTRACT</h3>
-          <p style="margin-bottom: 10px; font-size: 12px;">
+        <div style="margin: 10px 0;">
+          <h3 style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">3. ASSESSMENT CONTRACT</h3>
+          <p style="margin-bottom: 5px; font-size: 8px;">
             I declare that the assessment plan has been agreed upon by me and the Assessor as stated in the assessment plan.
           </p>
-          <table class="table" style="margin: 15px 0;">
+          <table class="table" style="margin: 8px 0; font-size: 8px;">
             <thead>
               <tr>
-                <th style="background: #f3f4f6;">Type of Assessment</th>
-                <th style="background: #f3f4f6;">Methodology</th>
-                <th style="background: #f3f4f6;">Minimum Pass Percentage</th>
+                <th style="background: #f3f4f6; padding: 3px; border: 1px solid #000;">Type of Assessment</th>
+                <th style="background: #f3f4f6; padding: 3px; border: 1px solid #000;">Methodology</th>
+                <th style="background: #f3f4f6; padding: 3px; border: 1px solid #000;">Minimum Pass Percentage</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Knowledge</td>
-                <td>Written</td>
-                <td>70%</td>
+                <td style="padding: 3px; border: 1px solid #000;">Knowledge</td>
+                <td style="padding: 3px; border: 1px solid #000;">Written</td>
+                <td style="padding: 3px; border: 1px solid #000;">70%</td>
               </tr>
               <tr>
-                <td>Skill</td>
-                <td>Practical</td>
-                <td>100%</td>
+                <td style="padding: 3px; border: 1px solid #000;">Skill</td>
+                <td style="padding: 3px; border: 1px solid #000;">Practical</td>
+                <td style="padding: 3px; border: 1px solid #000;">100%</td>
               </tr>
             </tbody>
           </table>
@@ -1024,84 +1024,84 @@ const generatePage4HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <div style="margin: 20px 0; font-size: 11px; line-height: 1.4;">
+        <div style="margin: 8px 0; font-size: 8px; line-height: 1.2;">
           <!-- Appeal bullet point -->
-          <div style="margin-bottom: 20px;">
+          <div style="margin-bottom: 8px;">
             <p style="margin: 0;"><strong>•Appeal against an assessment outcome, the training providers appeals procedure should be followed</strong></p>
           </div>
 
           <!-- Make use of interpreter bullet point -->
-          <div style="margin-bottom: 20px;">
+          <div style="margin-bottom: 8px;">
             <p style="margin: 0;"><strong>•Make use of an interpreter (with no technical knowledge of the subject matter) where language barriers may exist.</strong></p>
           </div>
 
           <!-- Make use of witness bullet point -->
-          <div style="margin-bottom: 20px;">
+          <div style="margin-bottom: 8px;">
             <p style="margin: 0;"><strong>•Make use of a witness to the assessment. The witness may only observe the assessment, but may not take any part in the assessment.</strong></p>
           </div>
 
           <!-- Receive feedback section -->
-          <div style="margin-bottom: 20px;">
+          <div style="margin-bottom: 8px;">
             <p style="margin: 0;">Receive feedback from the Assessor. Should the assessment outcome be determined as 'not yet competent', relevant information to the area in question will be communicated to you and kept on record for use in a re-assessment</p>
           </div>
 
           <!-- Confidentiality section -->
-          <div style="margin-bottom: 30px;">
-            <p style="margin: 0; margin-bottom: 10px;"><strong>Confidentiality:</strong></p>
+          <div style="margin-bottom: 12px;">
+            <p style="margin: 0; margin-bottom: 4px;"><strong>Confidentiality:</strong></p>
             <p style="margin: 0;">All information related to this Portfolio of Evidence and assessment will be treated as confidential. To ensure that the information and results are used solely for the record keeping and internal process related to assessment, moderation and certification.</p>
           </div>
 
           <!-- 3.1.3. Assessment and moderation policy -->
-          <div style="margin-bottom: 20px;">
-            <p style="margin: 0; margin-bottom: 8px;"><strong>3.1.3. Assessment and moderation policy:</strong></p>
+          <div style="margin-bottom: 8px;">
+            <p style="margin: 0; margin-bottom: 3px;"><strong>3.1.3. Assessment and moderation policy:</strong></p>
             <p style="margin: 0;">The learner and the Assessor must use the information displayed on this page to familiarize themselves with the Standards, assessment and moderation procedures.</p>
           </div>
 
           <!-- 3.1.4. Appeals procedure -->
-          <div style="margin-bottom: 20px;">
-            <p style="margin: 0; margin-bottom: 8px;"><strong>3.1.4. Appeals procedure:</strong></p>
+          <div style="margin-bottom: 8px;">
+            <p style="margin: 0; margin-bottom: 3px;"><strong>3.1.4. Appeals procedure:</strong></p>
             <p style="margin: 0;">The learner and Assessor must use the information displayed on this page to familiarize themselves with the appeals procedure. An appeals form may be obtained from the training provider upon request.</p>
           </div>
 
           <!-- 3.1.5. Re-assessment -->
-          <div style="margin-bottom: 20px;">
-            <p style="margin: 0; margin-bottom: 8px;"><strong>3.1.5. Re-assessment:</strong></p>
+          <div style="margin-bottom: 8px;">
+            <p style="margin: 0; margin-bottom: 3px;"><strong>3.1.5. Re-assessment:</strong></p>
             <p style="margin: 0;">All learners are entitled to be re-assessed in line with the training provider's assessment policy. Re-assessment decisions may incorporate past assessment results</p>
           </div>
 
           <!-- 3.1.6. Certification -->
-          <div style="margin-bottom: 20px;">
-            <p style="margin: 0; margin-bottom: 8px;"><strong>3.1.6. Certification:</strong></p>
+          <div style="margin-bottom: 8px;">
+            <p style="margin: 0; margin-bottom: 3px;"><strong>3.1.6. Certification:</strong></p>
             <p style="margin: 0;">Additional administrative and identification documentation is required for successful certification.</p>
             <p style="margin: 0;">This is a legally binding document in its entirety. All pages must be completed and present. Any additional evidence/ pages must be declared in the declaration of authenticity. Signatures on the feedback and evaluation of assessment forms are acceptance of the entire document.</p>
             <p style="margin: 0;">I declare that I have been explained and understand all parts of this contract</p>
           </div>
 
           <!-- 4. FORMATIVE ASSESSMENT -->
-          <div style="margin-top: 40px; margin-bottom: 30px;">
-            <h2 style="font-size: 13px; font-weight: bold; margin: 0; margin-bottom: 5px;"><strong>4. FORMATIVE ASSESSMENT:</strong></h2>
-            <h3 style="font-size: 12px; font-weight: bold; margin: 0; margin-bottom: 10px;"><strong>FALL ARREST & RESCUE MANAGEMENT –TOWER CLIMBER (FARM-TOCLI)</strong></h3>
-            <p style="margin: 0; font-style: italic; font-size: 10px;"><em>Instructions: This serves as a guide for training and assists the trainer in the evaluation of a learner's performance before assessment as well as the readiness for the actual assessment.</em></p>
+          <div style="margin-top: 15px; margin-bottom: 10px;">
+            <h2 style="font-size: 9px; font-weight: bold; margin: 0; margin-bottom: 3px;"><strong>4. FORMATIVE ASSESSMENT:</strong></h2>
+            <h3 style="font-size: 8px; font-weight: bold; margin: 0; margin-bottom: 5px;"><strong>FALL ARREST & RESCUE MANAGEMENT –TOWER CLIMBER (FARM-TOCLI)</strong></h3>
+            <p style="margin: 0; font-style: italic; font-size: 7px;"><em>Instructions: This serves as a guide for training and assists the trainer in the evaluation of a learner's performance before assessment as well as the readiness for the actual assessment.</em></p>
           </div>
         </div>
 
         <!-- Signatures Section -->
-        <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; margin-top: 40px;">
+        <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; margin-top: 15px;">
           <tr>
-            <td style="border: 1px solid #000; padding: 15px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong>Learner Signature</strong>
-              <div style="margin-top: 20px; border-bottom: 1px solid #000; height: 30px;">${page4.learnerSignature || ''}</div>
+            <td style="border: 1px solid #000; padding: 5px; width: 50%; text-align: center; background: #f9f9f9;">
+              <strong style="font-size: 8px;">Learner Signature</strong>
+              <div style="margin-top: 5px; border-bottom: 1px solid #000; height: 15px; font-size: 8px;">${page4.learnerSignature || ''}</div>
             </td>
-            <td style="border: 1px solid #000; padding: 15px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong>Assessor / Facilitator Signature</strong>
-              <div style="margin-top: 20px; border-bottom: 1px solid #000; height: 30px;">${page4.assessorFacilitatorSignature || ''}</div>
+            <td style="border: 1px solid #000; padding: 5px; width: 50%; text-align: center; background: #f9f9f9;">
+              <strong style="font-size: 8px;">Assessor / Facilitator Signature</strong>
+              <div style="margin-top: 5px; border-bottom: 1px solid #000; height: 15px; font-size: 8px;">${page4.assessorFacilitatorSignature || ''}</div>
             </td>
           </tr>
         </table>
         
         <!-- Footer -->
-        <div style="text-align: center; margin-top: 20px; font-size: 10px;">
-          <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #000; padding-top: 10px;">
+        <div style="text-align: center; margin-top: 8px; font-size: 7px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #000; padding-top: 3px;">
             <span>FARM ToCli POE Version -1.0</span>
             <span>MHTA-T-008</span>
             <span>Date 23.02.2022</span>
@@ -1134,25 +1134,25 @@ const generatePage5HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <div style="background: #f3f4f6; padding: 15px; margin: 20px 0; border: 1px solid #000;">
-          <table style="width: 100%; border-collapse: collapse;">
+        <div style="background: #f3f4f6; padding: 8px; margin: 10px 0; border: 1px solid #000;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 8px;">
             <tr>
-              <td style="border: 1px solid #000; padding: 10px; background: #e5e7eb; font-weight: bold; text-align: center;">Specific Outcome</td>
-              <td style="border: 1px solid #000; padding: 10px; background: #e5e7eb; font-weight: bold; text-align: center;">FALL ARREST & RESCUE MANAGEMENT - (FARM)</td>
-              <td style="border: 1px solid #000; padding: 10px; background: #e5e7eb; font-weight: bold; text-align: center;">Facilitator to Tick once Learner completed task</td>
+              <td style="border: 1px solid #000; padding: 6px; background: #e5e7eb; font-weight: bold; text-align: center;">Specific Outcome</td>
+              <td style="border: 1px solid #000; padding: 6px; background: #e5e7eb; font-weight: bold; text-align: center;">FALL ARREST & RESCUE MANAGEMENT - (FARM)</td>
+              <td style="border: 1px solid #000; padding: 6px; background: #e5e7eb; font-weight: bold; text-align: center;">Facilitator to Tick once Learner completed task</td>
             </tr>
           </table>
         </div>
 
-        <div style="margin: 20px 0;">
+        <div style="margin: 8px 0;">
           ${outcomes.map((outcome, index) => `
-            <div style="border: 1px solid #000; margin-bottom: 4px;">
+            <div style="border: 1px solid #000; margin-bottom: 2px;">
               <table style="width: 100%; border-collapse: collapse;">
                 <tr>
-                  <td style="padding: 8px; font-weight: bold; background: #f9f9f9; width: 120px; border-right: 1px solid #000;">Specific Outcome ${index + 1}</td>
-                  <td style="padding: 8px; background: #f9f9f9; border-right: 1px solid #000; font-size: 11px;">${outcome.text}</td>
-                  <td style="padding: 8px; background: #f9f9f9; text-align: center; width: 50px;">
-                    <div class="checkbox${page5[outcome.id as keyof typeof page5] ? ' checked' : ''}">${page5[outcome.id as keyof typeof page5] ? '✓' : ''}</div>
+                  <td style="padding: 4px; font-weight: bold; background: #f9f9f9; width: 100px; border-right: 1px solid #000; font-size: 8px;">Specific Outcome ${index + 1}</td>
+                  <td style="padding: 4px; background: #f9f9f9; border-right: 1px solid #000; font-size: 8px; line-height: 1.2;">${outcome.text}</td>
+                  <td style="padding: 4px; background: #f9f9f9; text-align: center; width: 40px;">
+                    <div class="checkbox${page5[outcome.id as keyof typeof page5] ? ' checked' : ''}" style="width: 12px; height: 12px; font-size: 8px;">${page5[outcome.id as keyof typeof page5] ? '✓' : ''}</div>
                   </td>
                 </tr>
               </table>
@@ -1160,34 +1160,34 @@ const generatePage5HTML = (formData: FormData) => {
           `).join('')}
         </div>
         
-        <div style="margin: 30px 0;">
-          <h3 style="font-size: 14px; font-weight: bold; margin-bottom: 20px;">Motivation for Assessment</h3>
-          <p style="font-size: 12px; margin-bottom: 10px;"><strong>Learner request for Assessment</strong></p>
-          <p style="font-size: 12px; margin-bottom: 20px;">
+        <div style="margin: 15px 0;">
+          <h3 style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">Motivation for Assessment</h3>
+          <p style="font-size: 8px; margin-bottom: 4px;"><strong>Learner request for Assessment</strong></p>
+          <p style="font-size: 8px; margin-bottom: 8px; line-height: 1.2;">
             This is to declare that I have completed the required training and formative assessment according to the Standards agreed upon. I would like to request to be assessed.
           </p>
           
-          <div style="border: 1px solid #000; padding: 15px; margin: 15px 0;">
-            <p style="font-size: 12px; font-weight: bold; margin-bottom: 10px;">Facilitator recommendation for assessment:</p>
-            <div style="display: flex; gap: 20px; margin-bottom: 20px;">
-              <div style="display: flex; align-items: center; gap: 5px;">
-                <div class="radio-button${page5.facilitatorRecommendation === 'yes' ? ' selected' : ''}"></div>
-                <span style="font-size: 12px;">Yes</span>
+          <div style="border: 1px solid #000; padding: 8px; margin: 8px 0;">
+            <p style="font-size: 8px; font-weight: bold; margin-bottom: 4px;">Facilitator recommendation for assessment:</p>
+            <div style="display: flex; gap: 15px; margin-bottom: 8px;">
+              <div style="display: flex; align-items: center; gap: 3px;">
+                <div class="radio-button${page5.facilitatorRecommendation === 'yes' ? ' selected' : ''}" style="width: 10px; height: 10px;"></div>
+                <span style="font-size: 8px;">Yes</span>
               </div>
-              <div style="display: flex; align-items: center; gap: 5px;">
-                <div class="radio-button${page5.facilitatorRecommendation === 'no' ? ' selected' : ''}"></div>
-                <span style="font-size: 12px;">No</span>
+              <div style="display: flex; align-items: center; gap: 3px;">
+                <div class="radio-button${page5.facilitatorRecommendation === 'no' ? ' selected' : ''}" style="width: 10px; height: 10px;"></div>
+                <span style="font-size: 8px;">No</span>
               </div>
             </div>
-            <div style="margin-top: 10px;">
-              <strong style="font-size: 12px;">Facilitator Signature:</strong> ${page5.facilitatorSignature || ''}
+            <div style="margin-top: 4px;">
+              <strong style="font-size: 8px;">Facilitator Signature:</strong> ${page5.facilitatorSignature || ''}
             </div>
           </div>
         </div>
 
-        <div style="background: #f3f4f6; padding: 15px; margin: 20px 0; border: 1px solid #000;">
-          <h3 style="font-size: 14px; font-weight: bold; margin-bottom: 10px;">5. KNOWLEDGE QUESTIONNAIRE (30 marks):</h3>
-          <div style="font-size: 12px;">
+        <div style="background: #f3f4f6; padding: 8px; margin: 10px 0; border: 1px solid #000;">
+          <h3 style="font-size: 10px; font-weight: bold; margin-bottom: 4px;">5. KNOWLEDGE QUESTIONNAIRE (30 marks):</h3>
+          <div style="font-size: 8px; line-height: 1.2;">
             <p><strong>Instructions:</strong></p>
             <p>1. Learners are required to answer all questions (written and oral answers are accepted).</p>
             <p>2. Assessor may supplement any answer by referring to practical observation.</p>
@@ -1195,7 +1195,17 @@ const generatePage5HTML = (formData: FormData) => {
           </div>
         </div>
         
-        ${generateSignatureSection(page5.learnerSignature, page5.assessorFacilitatorSignature)}
+        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page5.learnerSignature || ''}</div>
+          </div>
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page5.assessorFacilitatorSignature || ''}</div>
+          </div>
+        </div>
+        
         ${generateFormFooter(5)}
       </div>
     </div>
@@ -1459,12 +1469,12 @@ const generatePage8HTML = (formData: FormData) => {
     },
     {
       id: 'question16',
-      text: 'What is the maximum free fall distance allowed?',
+      text: 'What type of lifeline is this and its purpose?',
       options: [
-        'a) 1.8m',
-        'b) 2.0m',
-        'c) 2.5m',
-        'd) 3.0m'
+        'a)Horizontal – for movement over',
+        'b)Vertical – for movement up and down',
+        'c)Diagonal – for roof top movement',
+        'd)None of the above'
       ]
     },
     {
@@ -1494,73 +1504,73 @@ const generatePage8HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <div style="margin: 20px 0; font-size: 10px;">
+        <div style="margin: 10px 0; font-size: 8px;">
           ${questions.map((question, index) => `
-            <div style="margin-bottom: 20px; page-break-inside: avoid;">
+            <div style="margin-bottom: 12px; page-break-inside: avoid;">
               ${index === 1 ? `
-                <div style="display: flex; align-items: flex-start;">
-                  <div style="flex: 1; margin-right: 15px;">
-                    <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 13}. ${question.text}</div>
-                    <div style="margin-left: 15px;">
+                <div style="display: flex; align-items: flex-start; gap: 10px;">
+                  <div style="flex: 1;">
+                    <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 13}. ${question.text}</div>
+                    <div style="margin-left: 10px;">
                 ${question.options.map((option, optIndex) => `
-                        <div style="margin: 6px 0;">
-                          <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                          <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                        <div style="margin: 3px 0;">
+                          <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                          <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                   </div>
                 `).join('')}
               </div>
                   </div>
-                  <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-top: 20px; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage8.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Free space diagram" />
                   </div>
                 </div>
               ` : index === 3 ? `
-                <div style="display: flex; align-items: flex-start;">
-                  <div style="flex: 1; margin-right: 15px;">
-                    <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 13}. ${question.text}</div>
-                    <div style="margin-left: 15px;">
+                <div style="display: flex; align-items: flex-start; gap: 10px;">
+                  <div style="flex: 1;">
+                    <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 13}. ${question.text}</div>
+                    <div style="margin-left: 10px;">
                       ${question.options.map((option, optIndex) => `
-                        <div style="margin: 6px 0;">
-                          <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                          <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                        <div style="margin: 3px 0;">
+                          <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                          <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                         </div>
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-top: 20px; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage9.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
-                         alt="Ladder diagram" />
+                         alt="Horizontal lifeline diagram" />
                   </div>
                 </div>
               ` : index === 4 ? `
-                <div style="display: flex; align-items: flex-start;">
-                  <div style="flex: 1; margin-right: 15px;">
-                    <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 13}. ${question.text}</div>
-                    <div style="margin-left: 15px;">
+                <div style="display: flex; align-items: flex-start; gap: 10px;">
+                  <div style="flex: 1;">
+                    <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 13}. ${question.text}</div>
+                    <div style="margin-left: 10px;">
                       ${question.options.map((option, optIndex) => `
-                        <div style="margin: 6px 0;">
-                          <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                          <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                        <div style="margin: 3px 0;">
+                          <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                          <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                         </div>
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-top: 20px; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage10.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Y-lanyard diagram" />
                   </div>
                 </div>
               ` : `
-                <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 13}. ${question.text}</div>
-                <div style="margin-left: 15px;">
+                <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 13}. ${question.text}</div>
+                <div style="margin-left: 10px;">
                   ${question.options.map((option, optIndex) => `
-                    <div style="margin: 6px 0;">
-                      <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                      <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                    <div style="margin: 3px 0;">
+                      <div class="radio-button${page8[question.id as keyof typeof page8] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                      <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                     </div>
                   `).join('')}
                 </div>
@@ -1569,7 +1579,17 @@ const generatePage8HTML = (formData: FormData) => {
           `).join('')}
         </div>
         
-        ${generateSignatureSection(page8.learnerSignature, page8.assessorFacilitatorSignature)}
+        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page8.learnerSignature || ''}</div>
+          </div>
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page8.assessorFacilitatorSignature || ''}</div>
+          </div>
+        </div>
+        
         ${generateFormFooter(8)}
       </div>
     </div>
@@ -1648,54 +1668,54 @@ const generatePage9HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <div style="margin: 20px 0; font-size: 10px;">
+        <div style="margin: 10px 0; font-size: 8px;">
           ${questions.map((question, index) => `
-            <div style="margin-bottom: 20px; page-break-inside: avoid;">
+            <div style="margin-bottom: 12px; page-break-inside: avoid;">
               ${index === 1 ? `
-                <div style="display: flex; align-items: flex-start;">
-                  <div style="flex: 1; margin-right: 15px;">
-                    <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 19}. ${question.text}</div>
-                    <div style="margin-left: 15px;">
+                <div style="display: flex; align-items: flex-start; gap: 10px;">
+                  <div style="flex: 1;">
+                    <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 19}. ${question.text}</div>
+                    <div style="margin-left: 10px;">
                       ${question.options.map((option, optIndex) => `
-                        <div style="margin: 6px 0;">
-                          <div class="radio-button${page9[question.id as keyof typeof page9] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                          <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                        <div style="margin: 3px 0;">
+                          <div class="radio-button${page9[question.id as keyof typeof page9] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                          <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                         </div>
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-top: 20px; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage12.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Horizontal lifeline diagram" />
                   </div>
                 </div>
               ` : index === 3 ? `
-                <div style="display: flex; align-items: flex-start;">
-                  <div style="flex: 1; margin-right: 15px;">
-                    <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 19}. ${question.text}</div>
-                    <div style="margin-left: 15px;">
+                <div style="display: flex; align-items: flex-start; gap: 10px;">
+                  <div style="flex: 1;">
+                    <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 19}. ${question.text}</div>
+                    <div style="margin-left: 10px;">
                       ${question.options.map((option, optIndex) => `
-                        <div style="margin: 6px 0;">
-                          <div class="radio-button${page9[question.id as keyof typeof page9] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                          <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                        <div style="margin: 3px 0;">
+                          <div class="radio-button${page9[question.id as keyof typeof page9] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                          <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                         </div>
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-top: 20px; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage11.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Falling distance diagram" />
                   </div>
                 </div>
               ` : `
-                <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 19}. ${question.text}</div>
-                <div style="margin-left: 15px;">
+                <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 19}. ${question.text}</div>
+                <div style="margin-left: 10px;">
                   ${question.options.map((option, optIndex) => `
-                    <div style="margin: 6px 0;">
-                      <div class="radio-button${page9[question.id as keyof typeof page9] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                      <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                    <div style="margin: 3px 0;">
+                      <div class="radio-button${page9[question.id as keyof typeof page9] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                      <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                     </div>
                   `).join('')}
                 </div>
@@ -1704,7 +1724,17 @@ const generatePage9HTML = (formData: FormData) => {
           `).join('')}
         </div>
         
-        ${generateSignatureSection(page9.learnerSignature, page9.assessorFacilitatorSignature)}
+        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page9.learnerSignature || ''}</div>
+          </div>
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page9.assessorFacilitatorSignature || ''}</div>
+          </div>
+        </div>
+        
         ${generateFormFooter(9)}
       </div>
     </div>
@@ -1783,35 +1813,35 @@ const generatePage10HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <div style="margin: 20px 0; font-size: 10px;">
+        <div style="margin: 10px 0; font-size: 8px;">
           ${questions.map((question, index) => `
-            <div style="margin-bottom: 20px; page-break-inside: avoid;">
+            <div style="margin-bottom: 12px; page-break-inside: avoid;">
               ${index === 3 ? `
-                <div style="display: flex; align-items: flex-start;">
-                  <div style="flex: 1; margin-right: 15px;">
-                    <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 25}. ${question.text}</div>
-                    <div style="margin-left: 15px;">
+                <div style="display: flex; align-items: flex-start; gap: 10px;">
+                  <div style="flex: 1;">
+                    <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 25}. ${question.text}</div>
+                    <div style="margin-left: 10px;">
                       ${question.options.map((option, optIndex) => `
-                        <div style="margin: 6px 0;">
-                          <div class="radio-button${page10[question.id as keyof typeof page10] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                          <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                        <div style="margin: 3px 0;">
+                          <div class="radio-button${page10[question.id as keyof typeof page10] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                          <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                         </div>
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-top: 20px; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage13.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Pulley system diagram" />
                   </div>
                 </div>
               ` : `
-                <div style="font-weight: bold; margin-bottom: 8px; font-size: 8px;">${index + 25}. ${question.text}</div>
-                <div style="margin-left: 15px;">
+                <div style="font-weight: bold; margin-bottom: 4px; font-size: 8px;">${index + 25}. ${question.text}</div>
+                <div style="margin-left: 10px;">
                   ${question.options.map((option, optIndex) => `
-                    <div style="margin: 6px 0;">
-                      <div class="radio-button${page10[question.id as keyof typeof page10] === option ? ' selected' : ''}" style="margin-right: 6px; display: inline-block;"></div>
-                      <span style="font-size: 9px; line-height: 1.3; color: #374151;">${option}</span>
+                    <div style="margin: 3px 0;">
+                      <div class="radio-button${page10[question.id as keyof typeof page10] === option ? ' selected' : ''}" style="margin-right: 4px; display: inline-block; width: 8px; height: 8px;"></div>
+                      <span style="font-size: 7px; line-height: 1.2; color: #374151;">${option}</span>
                     </div>
                   `).join('')}
                 </div>
@@ -1820,7 +1850,17 @@ const generatePage10HTML = (formData: FormData) => {
           `).join('')}
         </div>
         
-        ${generateSignatureSection(page10.learnerSignature, page10.assessorFacilitatorSignature)}
+        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page10.learnerSignature || ''}</div>
+          </div>
+          <div>
+            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page10.assessorFacilitatorSignature || ''}</div>
+          </div>
+        </div>
+        
         ${generateFormFooter(10)}
       </div>
     </div>
@@ -1836,70 +1876,70 @@ const generatePage11HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <div style="margin: 20px 0; font-size: 11px;">
+        <div style="margin: 8px 0; font-size: 8px;">
           
           <!-- Question 31 -->
-          <div style="margin-bottom: 25px;">
-            <div style="font-weight: bold; margin-bottom: 12px;">31. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
-            <div style="display: flex; justify-content: center; margin: 20px 0;">
-              <div style="width: 80px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 10px;">
+          <div style="margin-bottom: 10px;">
+            <div style="font-weight: bold; margin-bottom: 5px; font-size: 8px;">31. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
+            <div style="display: flex; justify-content: center; margin: 8px 0;">
+              <div style="width: 50px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
                 <img src="images/image14.png" alt="Phone icon" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 80px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 10px;">
+              <div style="width: 50px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
                 <img src="images/image15.png" alt="Warning hand" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 80px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 10px;">
+              <div style="width: 50px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
                 <img src="images/image16.png" alt="Car icon" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
             </div>
-            <div style="border: 1px solid #000; padding: 10px; margin-top: 10px; min-height: 40px; background: #f9f9f9;">
+            <div style="border: 1px solid #000; padding: 3px; margin-top: 3px; min-height: 20px; background: #f9f9f9; font-size: 7px;">
               ${page11.question31 || ''}
             </div>
           </div>
 
           <!-- Question 32 - Risk Assessment Table -->
-          <div style="margin-bottom: 25px;">
-            <div style="font-weight: bold; margin-bottom: 12px;">32. Complete the risk assessment form for antenna alignment/installation at 40 meters (2 marks only if complete risk assessment is done for one of the task)</div>
+          <div style="margin-bottom: 10px;">
+            <div style="font-weight: bold; margin-bottom: 5px; font-size: 7px;">32. Complete the risk assessment form for antenna alignment/installation at 40 meters (2 marks only if complete risk assessment is done for one of the task)</div>
             
-            <table class="table" style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 2px solid #000; font-size: 9px; table-layout: fixed;">
+            <table class="table" style="width: 100%; border-collapse: collapse; margin: 8px 0; border: 1px solid #000; font-size: 6px; table-layout: fixed;">
           <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: bold; width: 5%;" rowspan="2">
-                    <div style="line-height: 1.2;">
+                  <th style="border: 1px solid #000; padding: 2px; text-align: left; font-weight: bold; width: 5%;" rowspan="2">
+                    <div style="line-height: 1.1;">
                       <div>Sr.</div>
                       <div>No.</div>
                     </div>
                   </th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Activity</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Hazard</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Risk Involved</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 24%;" colspan="3">Risk Analysis</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Control Measures</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 24%;" colspan="3">Risk Analysis after Control</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Activity</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Hazard</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Risk Involved</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 24%;" colspan="3">Risk Analysis</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;" rowspan="2">Control Measures</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 24%;" colspan="3">Risk Analysis after Control</th>
                 </tr>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">Severity (A)</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">Occurrence (B)</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">Risk Level AxB</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">Severity (A')</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">Occurrence (B')</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">Residue Risk Level (A'xB')</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">Severity (A)</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">Occurrence (B)</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">Risk Level AxB</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">Severity (A')</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">Occurrence (B')</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">Residue Risk Level (A'xB')</th>
                 </tr>
               </thead>
               <tbody>
                 ${[...Array(8)].map((_, index) => `
                   <tr>
-                    <td style="border: 1px solid #000; padding: 4px; text-align: left; width: 5%; overflow: hidden; word-wrap: break-word;">${index + 1}</td>
-                    <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.activity || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.hazard || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.riskInvolved || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.severityA || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.occuranceB || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.riskLevelAxB || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.controlMeasures || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.severityA2 || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.occuranceB2 || ''}</td>
-                    <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 9%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.residueRiskLevel || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; text-align: left; width: 5%; overflow: hidden; word-wrap: break-word;">${index + 1}</td>
+                    <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.activity || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.hazard || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.riskInvolved || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.severityA || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.occuranceB || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.riskLevelAxB || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.controlMeasures || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.severityA2 || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.occuranceB2 || ''}</td>
+                    <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 9%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page11.question32?.[index]?.residueRiskLevel || ''}</td>
                   </tr>
                 `).join('')}
               </tbody>
@@ -1922,148 +1962,148 @@ const generatePage12HTML = (formData: FormData) => {
       <div class="card full-page-content">
         ${generateFormHeader()}
         
-        <h2 style="text-align: center; font-size: 12px; font-weight: bold; margin: 15px 0;">7. EQUIPMENT INSPECTION RECORD</h2>
+        <h2 style="text-align: center; font-size: 9px; font-weight: bold; margin: 8px 0;">7. EQUIPMENT INSPECTION RECORD</h2>
         
-        <div style="margin: 15px 0;">
-          <div style="display: flex; gap: 15px; margin-bottom: 10px;">
+        <div style="margin: 8px 0;">
+          <div style="display: flex; gap: 8px; margin-bottom: 5px;">
             <div style="flex: 1;">
-              <strong style="font-size: 10px;">Inspected by:</strong> ${page12.inspectedBy || ''}
+              <strong style="font-size: 7px;">Inspected by:</strong> ${page12.inspectedBy || ''}
             </div>
             <div style="flex: 1;">
-              <strong style="font-size: 10px;">Inspection Date:</strong> ${page12.inspectionDate || ''}
+              <strong style="font-size: 7px;">Inspection Date:</strong> ${page12.inspectionDate || ''}
             </div>
           </div>
 
           <!-- Question 33 -->
-          <div style="margin: 15px 0;">
-            <div style="font-weight: bold; margin-bottom: 8px; font-size: 10px;">33. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
-            <div style="display: flex; justify-content: center; margin: 15px 0;">
-              <div style="width: 60px; height: 60px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 8px;">
+          <div style="margin: 8px 0;">
+            <div style="font-weight: bold; margin-bottom: 4px; font-size: 7px;">33. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
+            <div style="display: flex; justify-content: center; margin: 8px 0;">
+              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image17.png" alt="Excavator" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 60px; height: 60px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 8px;">
+              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image18.png" alt="Tower" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 60px; height: 60px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 8px;">
+              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image19.png" alt="Person" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
             </div>
-            <div style="border: 1px solid #000; padding: 6px; margin-top: 6px; min-height: 30px; background: #f9f9f9; font-size: 9px;">
+            <div style="border: 1px solid #000; padding: 3px; margin-top: 3px; min-height: 18px; background: #f9f9f9; font-size: 6px;">
               ${page12.question33 || ''}
             </div>
           </div>
 
           <!-- Question 34 -->
-          <div style="margin: 15px 0;">
-            <div style="font-weight: bold; margin-bottom: 8px; font-size: 10px;">34. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
-            <div style="display: flex; justify-content: center; margin: 15px 0;">
-              <div style="width: 60px; height: 60px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 8px;">
+          <div style="margin: 8px 0;">
+            <div style="font-weight: bold; margin-bottom: 4px; font-size: 7px;">34. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
+            <div style="display: flex; justify-content: center; margin: 8px 0;">
+              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image20.png" alt="Crane" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 60px; height: 60px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 8px;">
+              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image21.png" alt="Warning" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 60px; height: 60px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 8px;">
+              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image22.png" alt="Sparks" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
             </div>
-            <div style="border: 1px solid #000; padding: 6px; margin-top: 6px; min-height: 30px; background: #f9f9f9; font-size: 9px;">
+            <div style="border: 1px solid #000; padding: 3px; margin-top: 3px; min-height: 18px; background: #f9f9f9; font-size: 6px;">
               ${page12.question34 || ''}
             </div>
           </div>
 
           <!-- Sling Inspection Table -->
-          <div style="margin: 15px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 4px; font-size: 9px;">Sling - EN 566, 795</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 9px; table-layout: fixed;">
+          <div style="margin: 8px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 6px;">Sling - EN 566, 795</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 5px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Serial No.</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Stitching</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 16%;">D-Links if present</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Fraying</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Serial No.</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Stitching</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 16%;">D-Links if present</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Fraying</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Pass/<br/>Reject</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">1</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">1</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.slingInspection?.[0]?.field6 || ''}</td>
             </tr>
               </tbody>
             </table>
           </div>
 
           <!-- Safety Harness Inspection Table -->
-          <div style="margin: 15px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 4px; font-size: 9px;">Safety Harness - EN 361, 813, 358</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 9px; table-layout: fixed;">
+          <div style="margin: 8px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 6px;">Safety Harness - EN 361, 813, 358</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 5px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Serial No.</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Stitching</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">D-rings</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Buckles</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Webbing</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Serial No.</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Stitching</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">D-rings</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Buckles</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Webbing</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">2</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">2</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHarnessInspection?.[0]?.field7 || ''}</td>
             </tr>
               </tbody>
             </table>
           </div>
 
           <!-- Safety Helmet Inspection Table -->
-          <div style="margin: 15px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 4px; font-size: 9px;">Safety Helmet - EN 12492</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 9px; table-layout: fixed;">
+          <div style="margin: 8px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 6px;">Safety Helmet - EN 12492</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 5px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 16%;">Wear, Cuts & Abrasions</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 16%;">Heat & Chemical Damage</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 16%;">Cracks & Deformations</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Chin Strap Clip</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Connections & Rivets</th>
-                  <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 12%;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 16%;">Wear, Cuts & Abrasions</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 16%;">Heat & Chemical Damage</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 16%;">Cracks & Deformations</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Chin Strap Clip</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Connections & Rivets</th>
+                  <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 12%;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">3</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 4px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">3</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page12.safetyHelmetInspection?.[0]?.field7 || ''}</td>
             </tr>
           </tbody>
         </table>
@@ -2086,200 +2126,200 @@ const generatePage13HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- Equipment Inspection Tables -->
-        <div style="margin: 5px 0;">
+        <div style="margin: 1px 0;">
           <!-- Safety ropes, climbing semi-static - EN 1891 -->
-          <div style="margin: 3px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 8px;">Safety ropes, climbing semi-static - EN 1891</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 8px; table-layout: fixed;">
+          <div style="margin: 1px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 0px; font-size: 5px;">Safety ropes, climbing semi-static - EN 1891</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 4px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Length</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Wear, Cuts & Abrasions</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Heat & Chemical Damage</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Internal Damage & Discontinuities</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Fraying</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Heavy Soiling</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%; line-height: 1.2;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Length</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Wear, Cuts & Abrasions</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Heat & Chemical Damage</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Internal Damage & Discontinuities</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Fraying</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Heavy Soiling</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%; line-height: 1.0;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">4</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">4</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.safetyRopesInspection?.[0]?.field7 || ''}</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <!-- Shock Absorber - EN 355 -->
-          <div style="margin: 3px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 8px;">Shock Absorber - EN 355</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 8px; table-layout: fixed;">
+          <div style="margin: 1px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 0px; font-size: 5px;">Shock Absorber - EN 355</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 4px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Serial No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Stitching & Equipment</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Protective Cover</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Webbing</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Connectors</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%; line-height: 1.2;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Serial No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Stitching & Equipment</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Protective Cover</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Webbing</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Connectors</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%; line-height: 1.0;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">5</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">5</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.shockAbsorberInspection?.[0]?.field7 || ''}</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <!-- Connector - EN 362 -->
-          <div style="margin: 3px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 8px;">Connector - EN 362</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 8px; table-layout: fixed;">
+          <div style="margin: 1px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 0px; font-size: 5px;">Connector - EN 362</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 4px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Body</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Bolts & Rivets</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Spring Action</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Gate</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Locking Sleeve</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Rusting</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%; line-height: 1.2;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Body</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Bolts & Rivets</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Spring Action</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Gate</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Locking Sleeve</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Rusting</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%; line-height: 1.0;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">6</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">6</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.connectorInspection?.[0]?.field7 || ''}</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <!-- Double Locking Descending Device - EN 341 -->
-          <div style="margin: 3px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 8px;">Double Locking Descending Device - EN 341</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 8px; table-layout: fixed;">
+          <div style="margin: 1px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 0px; font-size: 5px;">Double Locking Descending Device - EN 341</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 4px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Body</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Bolts & Rivets</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Cams</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Spring Action</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Working Action</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Deformed</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%; line-height: 1.2;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Body</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Bolts & Rivets</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Cams</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Spring Action</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Working Action</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Deformed</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%; line-height: 1.0;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">7</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">7</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.doubleLockingInspection?.[0]?.field7 || ''}</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <!-- Fall Arrest Device (Rope Grab) - EN 567 -->
-          <div style="margin: 3px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 8px;">Fall Arrest Device (Rope Grab) - EN 567</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 8px; table-layout: fixed;">
+          <div style="margin: 1px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 0px; font-size: 5px;">Fall Arrest Device (Rope Grab) - EN 567</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 4px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Body</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Bolts & Rivets</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Cams</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Spring Action</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Working Action</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Rusting</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%; line-height: 1.2;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Body</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Bolts & Rivets</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Cams</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Spring Action</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Working Action</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Rusting</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%; line-height: 1.0;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">8</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">8</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.fallArrestDeviceInspection?.[0]?.field7 || ''}</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <!-- Work Positioning Belt - EN 358 -->
-          <div style="margin: 3px 0;">
-            <h4 style="font-weight: bold; margin-bottom: 2px; font-size: 8px;">Work Positioning Belt - EN 358</h4>
-            <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; font-size: 8px; table-layout: fixed;">
+          <div style="margin: 1px 0;">
+            <h4 style="font-weight: bold; margin-bottom: 0px; font-size: 5px;">Work Positioning Belt - EN 358</h4>
+            <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 4px; table-layout: fixed;">
               <thead>
                 <tr style="background: #f3f4f6;">
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 8%;">No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Serial No</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Stitching</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 16%;">Buckles/Length Adjuster</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Webbing</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%;">Connectors</th>
-                  <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 12%; line-height: 1.2;">Pass/<br/>Reject</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 8%;">No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">ID No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Serial No</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Date of Manufacture</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Stitching</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 16%;">Buckles/Length Adjuster</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Webbing</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%;">Connectors</th>
+                  <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 12%; line-height: 1.0;">Pass/<br/>Reject</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td style="border: 1px solid #000; padding: 2px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">9</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field0 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field1 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field2 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field3 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field4 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field5 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field6 || ''}</td>
-                  <td style="border: 1px solid #000; padding: 2px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field7 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; text-align: center; width: 8%; overflow: hidden; word-wrap: break-word;">9</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field0 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field1 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field2 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field3 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 16%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field4 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field5 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field6 || ''}</td>
+                  <td style="border: 1px solid #000; padding: 0px; width: 12%; overflow: hidden; word-wrap: break-word; max-width: 0;">${page13.workPositioningInspection?.[0]?.field7 || ''}</td>
                 </tr>
               </tbody>
             </table>
@@ -2287,102 +2327,100 @@ const generatePage13HTML = (formData: FormData) => {
         </div>
 
         <!-- Task 2 Section -->
-        <div style="margin: 30px 0;">
-          <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <div style="margin: 2px 0;">
+          <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
             <thead>
               <tr style="background: #e5e7eb;">
-                <th colspan="4" style="text-align: center; font-weight: bold; padding: 8px; border: 1px solid #000;">Task 2 (Total marks - 03)</th>
+                <th colspan="4" style="text-align: center; font-weight: bold; padding: 1px; border: 1px solid #000; font-size: 4px;">Task 2 (Total marks - 03)</th>
               </tr>
               <tr style="background: #e5e7eb;">
-                <th colspan="4" style="text-align: center; font-weight: bold; padding: 8px; border: 1px solid #000;">Prepare for practical task at height</th>
+                <th colspan="4" style="text-align: center; font-weight: bold; padding: 1px; border: 1px solid #000; font-size: 4px;">Prepare for practical task at height</th>
               </tr>
               <tr style="background: #f3f4f6;">
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: left;">Subtask for Assessment Observation</th>
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: center;">A</th>
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: center;">NYA</th>
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: center;">Assessors notes & comments</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: left;">Subtask for Assessment Observation</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: center;">A</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: center;">NYA</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: center;">Assessors notes & comments</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">Full range of fall arrest equipment required for all climbing tasks are identified, inspected and meet the inspection criteria explained</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">Full range of fall arrest equipment required for all climbing tasks are identified, inspected and meet the inspection criteria explained</td>
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task2Results?.[0]?.achieved ? ' checked' : ''}">${page13.task2Results?.[0]?.achieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task2Results?.[0]?.notAchieved ? ' checked' : ''}">${page13.task2Results?.[0]?.notAchieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">${page13.task2Results?.[0]?.comments || ''}</td>
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">${page13.task2Results?.[0]?.comments || ''}</td>
               </tr>
               <tr>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">Personal fall arrest equipment and Personal Protective Equipment (PPE) is assembled and fitted according to manufacturer specification</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">Personal fall arrest equipment and Personal Protective Equipment (PPE) is assembled and fitted according to manufacturer specification</td>
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task2Results?.[1]?.achieved ? ' checked' : ''}">${page13.task2Results?.[1]?.achieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task2Results?.[1]?.notAchieved ? ' checked' : ''}">${page13.task2Results?.[1]?.notAchieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">${page13.task2Results?.[1]?.comments || ''}</td>
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">${page13.task2Results?.[1]?.comments || ''}</td>
               </tr>
               <tr>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">Full range of rescue equipment is identified and inspected</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">Full range of rescue equipment is identified and inspected</td>
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task2Results?.[2]?.achieved ? ' checked' : ''}">${page13.task2Results?.[2]?.achieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task2Results?.[2]?.notAchieved ? ' checked' : ''}">${page13.task2Results?.[2]?.notAchieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">${page13.task2Results?.[2]?.comments || ''}</td>
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">${page13.task2Results?.[2]?.comments || ''}</td>
               </tr>
             </tbody>
           </table>
         </div>
 
         <!-- Task 3 Section -->
-        <div style="margin: 30px 0;">
-          <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <div style="margin: 2px 0;">
+          <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
             <thead>
               <tr style="background: #e5e7eb;">
-                <th colspan="4" style="text-align: center; font-weight: bold; padding: 8px; border: 1px solid #000;">Task 3 (Total marks - 08)</th>
+                <th colspan="4" style="text-align: center; font-weight: bold; padding: 1px; border: 1px solid #000; font-size: 4px;">Task 3 (Total marks - 08)</th>
               </tr>
               <tr style="background: #e5e7eb;">
-                <th colspan="4" style="text-align: center; font-weight: bold; padding: 8px; border: 1px solid #000;">Installation and application of fall arrest systems. The use of the full range of required equipment are explained throughout practical use</th>
+                <th colspan="4" style="text-align: center; font-weight: bold; padding: 1px; border: 1px solid #000; font-size: 4px;">Installation and application of fall arrest systems. The use of the full range of required equipment are explained throughout practical use</th>
               </tr>
               <tr style="background: #f3f4f6;">
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: left;">Subtask for Assessment Observation</th>
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: center;">A</th>
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: center;">NYA</th>
-                <th style="border: 1px solid #000; padding: 6px; font-size: 10px; text-align: center;">Assessors notes & comments</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: left;">Subtask for Assessment Observation</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: center;">A</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: center;">NYA</th>
+                <th style="border: 1px solid #000; padding: 1px; font-size: 4px; text-align: center;">Assessors notes & comments</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">Installation of vertical and horizontal life line. Includes safe use of anchor points. Limited free space is managed</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">Installation of vertical and horizontal life line. Includes safe use of anchor points. Limited free space is managed</td>
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task3Results?.[0]?.achieved ? ' checked' : ''}">${page13.task3Results?.[0]?.achieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center;">
                   <div class="checkbox${page13.task3Results?.[0]?.notAchieved ? ' checked' : ''}">${page13.task3Results?.[0]?.notAchieved ? '✓' : ''}</div>
                 </td>
-                <td style="border: 1px solid #000; padding: 6px; font-size: 10px;">${page13.task3Results?.[0]?.comments || ''}</td>
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">${page13.task3Results?.[0]?.comments || ''}</td>
               </tr>
             </tbody>
           </table>
         </div>
 
         <!-- Signatures Section -->
-        <table class="table" style="width: 100%; border-collapse: collapse; border: 2px solid #000; margin-top: 40px;">
-          <tr>
-            <td style="border: 1px solid #000; padding: 15px; width: 50%; text-align: center;">
-              <strong>Learner Signature</strong>
-              <div style="margin-top: 20px; border-bottom: 1px solid #000; height: 30px;">${page13.learnerSignature || ''}</div>
-            </td>
-            <td style="border: 1px solid #000; padding: 15px; width: 50%; text-align: center;">
-              <strong>Assessor / Facilitator Signature</strong>
-              <div style="margin-top: 20px; border-bottom: 1px solid #000; height: 30px;">${page13.assessorFacilitatorSignature || ''}</div>
-            </td>
-          </tr>
-        </table>
+        <div style="margin: 2px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+          <div>
+            <label style="font-size: 4px; font-weight: bold; display: block; margin-bottom: 1px;">Learner Signature</label>
+            <div style="border: 1px solid #000; height: 10px; font-size: 4px; padding: 1px;">${page13.learnerSignature || ''}</div>
+          </div>
+          <div>
+            <label style="font-size: 4px; font-weight: bold; display: block; margin-bottom: 1px;">Assessor / Facilitator Signature</label>
+            <div style="border: 1px solid #000; height: 10px; font-size: 4px; padding: 1px;">${page13.assessorFacilitatorSignature || ''}</div>
+          </div>
+        </div>
         
         ${generateFormFooter(13)}
       </div>
@@ -2435,29 +2473,29 @@ const generatePage14HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- 7 Bullet Points -->
-        <div style="margin: 15px 0;">
-          <table style="width: 100%; border-collapse: collapse; font-size: 9px; table-layout: fixed; border: 1px solid #000;">
+        <div style="margin: 1px 0;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 4px; table-layout: fixed; border: 1px solid #000;">
             <tr>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">A</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">NYA</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 20%;">Assessors notes & comments</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">A</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">NYA</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 20%;">Assessors notes & comments</th>
             </tr>
             ${assessmentItems.map((item, index) => `
               <tr>
-                <td style="border: 1px solid #000; padding: 3px; text-align: left;">
-                  <div style="display: flex; align-items: flex-start; gap: 5px;">
-                    <span style="font-weight: bold; margin-top: 1px;">•</span>
+                <td style="border: 1px solid #000; padding: 1px; text-align: left;">
+                  <div style="display: flex; align-items: flex-start; gap: 2px;">
+                    <span style="font-weight: bold; margin-top: 0px;">•</span>
                     <span style="flex: 1;">${item}</span>
                   </div>
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.assessmentItems?.[index]?.achieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.assessmentItems?.[index]?.notAchieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; font-size: 4px;">
                   ${page14.assessmentItems?.[index]?.comments || ''}
                 </td>
               </tr>
@@ -2466,27 +2504,27 @@ const generatePage14HTML = (formData: FormData) => {
         </div>
 
         <!-- Task 4 -->
-        <div style="margin: 15px 0;">
-          <div style="text-align: center; font-weight: bold; font-size: 11px; margin-bottom: 5px;">Task 4 (Total Marks - 05)</div>
-          <div style="text-align: center; font-size: 10px; margin-bottom: 8px;">Rescue and emergency procedures are performed</div>
-          <table style="width: 100%; border-collapse: collapse; font-size: 9px; table-layout: fixed;">
+        <div style="margin: 1px 0;">
+          <div style="text-align: center; font-weight: bold; font-size: 4px; margin-bottom: 1px;">Task 4 (Total Marks - 05)</div>
+          <div style="text-align: center; font-size: 4px; margin-bottom: 1px;">Rescue and emergency procedures are performed</div>
+          <table style="width: 100%; border-collapse: collapse; font-size: 4px; table-layout: fixed;">
             <tr>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">A</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">NYA</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 20%;">Assessors notes & comments</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">A</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">NYA</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 20%;">Assessors notes & comments</th>
             </tr>
             ${task4Items.map((item, index) => `
               <tr>
-                <td style="border: 1px solid #000; padding: 3px; text-align: left;">${item}</td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: left;">${item}</td>
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.task4Results?.[index]?.achieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.task4Results?.[index]?.notAchieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px;">
-                  <div style="border: none; width: 100%; height: 15px; font-size: 8px;">${page14.task4Results?.[index]?.comments || ''}</div>
+                <td style="border: 1px solid #000; padding: 1px;">
+                  <div style="border: none; width: 100%; height: 8px; font-size: 4px;">${page14.task4Results?.[index]?.comments || ''}</div>
                 </td>
               </tr>
             `).join('')}
@@ -2494,27 +2532,27 @@ const generatePage14HTML = (formData: FormData) => {
         </div>
 
         <!-- Task 5 -->
-        <div style="margin: 15px 0;">
-          <div style="text-align: center; font-weight: bold; font-size: 11px; margin-bottom: 5px;">Task 5 (Total marks - 03)</div>
-          <div style="text-align: center; font-size: 10px; margin-bottom: 8px;">Use basic rope rigging principles to convey loads</div>
-          <table style="width: 100%; border-collapse: collapse; font-size: 9px; table-layout: fixed;">
+        <div style="margin: 1px 0;">
+          <div style="text-align: center; font-weight: bold; font-size: 4px; margin-bottom: 1px;">Task 5 (Total marks - 03)</div>
+          <div style="text-align: center; font-size: 4px; margin-bottom: 1px;">Use basic rope rigging principles to convey loads</div>
+          <table style="width: 100%; border-collapse: collapse; font-size: 4px; table-layout: fixed;">
             <tr>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">A</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">NYA</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 20%;">Assessors notes & comments</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">A</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">NYA</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 20%;">Assessors notes & comments</th>
             </tr>
             ${task5Items.map((item, index) => `
               <tr>
-                <td style="border: 1px solid #000; padding: 3px; text-align: left;">${item}</td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: left;">${item}</td>
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.task5Results?.[index]?.achieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.task5Results?.[index]?.notAchieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px;">
-                  <div style="border: none; width: 100%; height: 15px; font-size: 8px;">${page14.task5Results?.[index]?.comments || ''}</div>
+                <td style="border: 1px solid #000; padding: 1px;">
+                  <div style="border: none; width: 100%; height: 8px; font-size: 4px;">${page14.task5Results?.[index]?.comments || ''}</div>
                 </td>
               </tr>
             `).join('')}
@@ -2522,27 +2560,27 @@ const generatePage14HTML = (formData: FormData) => {
         </div>
 
         <!-- Task 6 -->
-        <div style="margin: 15px 0;">
-          <div style="text-align: center; font-weight: bold; font-size: 11px; margin-bottom: 5px;">Task 6 (Total Marks - 04)</div>
-          <div style="text-align: center; font-size: 10px; margin-bottom: 8px;">Tying of the following knots are demonstrated</div>
-          <table style="width: 100%; border-collapse: collapse; font-size: 9px; table-layout: fixed;">
+        <div style="margin: 1px 0;">
+          <div style="text-align: center; font-weight: bold; font-size: 4px; margin-bottom: 1px;">Task 6 (Total Marks - 04)</div>
+          <div style="text-align: center; font-size: 4px; margin-bottom: 1px;">Tying of the following knots are demonstrated</div>
+          <table style="width: 100%; border-collapse: collapse; font-size: 4px; table-layout: fixed;">
             <tr>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Achieved</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Not Yet Achieved</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 20%;">Assessors notes and comments</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 60%;">Subtask for Assessment Observation</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">Achieved</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: center; font-weight: bold; width: 10%;">Not Yet Achieved</th>
+              <th style="border: 1px solid #000; padding: 1px; text-align: left; font-weight: bold; width: 20%;">Assessors notes and comments</th>
             </tr>
             ${task6Items.map((item, index) => `
               <tr>
-                <td style="border: 1px solid #000; padding: 3px; text-align: left;">${item}</td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: left;">${item}</td>
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.task6Results?.[index]?.achieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 8px;">
+                <td style="border: 1px solid #000; padding: 1px; text-align: center; font-size: 4px;">
                   ${page14.task6Results?.[index]?.notAchieved || ''}
                 </td>
-                <td style="border: 1px solid #000; padding: 3px;">
-                  <div style="border: none; width: 100%; height: 15px; font-size: 8px;">${page14.task6Results?.[index]?.comments || ''}</div>
+                <td style="border: 1px solid #000; padding: 1px;">
+                  <div style="border: none; width: 100%; height: 8px; font-size: 4px;">${page14.task6Results?.[index]?.comments || ''}</div>
                 </td>
               </tr>
             `).join('')}
@@ -2550,34 +2588,34 @@ const generatePage14HTML = (formData: FormData) => {
         </div>
 
         <!-- Fall Arrest Practical Result -->
-        <div style="border: 2px solid #000; padding: 8px; margin: 15px 0;">
-          <div style="text-align: center; font-weight: bold; font-size: 11px; margin-bottom: 8px;">Fall Arrest and Fall Arrest Rescue Practical Result</div>
-          <div style="display: flex; justify-content: center; gap: 30px;">
-            <div style="display: flex; align-items: center; gap: 5px;">
+        <div style="border: 1px solid #000; padding: 1px; margin: 1px 0;">
+          <div style="text-align: center; font-weight: bold; font-size: 4px; margin-bottom: 1px;">Fall Arrest and Fall Arrest Rescue Practical Result</div>
+          <div style="display: flex; justify-content: center; gap: 8px;">
+            <div style="display: flex; align-items: center; gap: 2px;">
               <div class="checkbox${page14.fallArrestPracticalResult === 'achieved' ? ' checked' : ''}"></div>
-              <span style="font-size: 10px;">Achieved</span>
+              <span style="font-size: 4px;">Achieved</span>
             </div>
-            <div style="display: flex; align-items: center; gap: 5px;">
+            <div style="display: flex; align-items: center; gap: 2px;">
               <div class="checkbox${page14.fallArrestPracticalResult === 'not-achieved' ? ' checked' : ''}"></div>
-              <span style="font-size: 10px;">Not yet Achieved</span>
+              <span style="font-size: 4px;">Not yet Achieved</span>
             </div>
           </div>
         </div>
 
         <!-- Signatures -->
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 1px 0;">
           <div>
-            <div style="font-weight: bold; font-size: 10px; margin-bottom: 5px;">Learner Signature</div>
-            <div style="border: 1px solid #000; height: 25px; padding: 5px; font-size: 9px;">${page14.learnerSignature || ''}</div>
+            <div style="font-weight: bold; font-size: 4px; margin-bottom: 1px;">Learner Signature</div>
+            <div style="border: 1px solid #000; height: 10px; padding: 1px; font-size: 4px;">${page14.learnerSignature || ''}</div>
           </div>
           <div>
-            <div style="font-weight: bold; font-size: 10px; margin-bottom: 5px;">Assessor / Facilitator Signature</div>
-            <div style="border: 1px solid #000; height: 25px; padding: 5px; font-size: 9px;">${page14.assessorFacilitatorSignature || ''}</div>
+            <div style="font-weight: bold; font-size: 4px; margin-bottom: 1px;">Assessor / Facilitator Signature</div>
+            <div style="border: 1px solid #000; height: 10px; padding: 1px; font-size: 4px;">${page14.assessorFacilitatorSignature || ''}</div>
           </div>
         </div>
 
         <!-- Footer -->
-        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 9px; margin-top: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 4px; margin-top: 2px;">
           <div>FARM TOCII POE Version -1.0</div>
           <div style="text-align: center;">
             <div>MHTA-T-008</div>
@@ -2617,32 +2655,32 @@ const generatePage15HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- Section 7: Workplace Application Assessment -->
-        <div style="margin: 15px 0;">
-          <div style="font-size: 12px; font-weight: bold; margin-bottom: 12px;">7. WORKPLACE APPLICATION ASSESSMENT</div>
+        <div style="margin: 5px 0;">
+          <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">7. WORKPLACE APPLICATION ASSESSMENT</div>
           
           <!-- Instructions -->
-          <div style="background: #f3f4f6; padding: 12px; margin-bottom: 20px; border: 1px solid #000;">
-            <div style="font-weight: bold; font-size: 11px; margin-bottom: 8px;">Instructions</div>
-            <div style="font-size: 10px; line-height: 1.3;">
-              <div style="margin-bottom: 3px;">1. The work place check list must be completed within 2 months after the knowledge and practical assessment</div>
-              <div style="margin-bottom: 3px;">2. All tasks must be performed at a worksite or in simulated work at height environment.</div>
-              <div style="margin-bottom: 3px;">3. Supervisor must record the learner's performance of each task.</div>
+          <div style="background: #f3f4f6; padding: 4px; margin-bottom: 8px; border: 1px solid #000;">
+            <div style="font-weight: bold; font-size: 7px; margin-bottom: 3px;">Instructions</div>
+            <div style="font-size: 6px; line-height: 1.2;">
+              <div style="margin-bottom: 2px;">1. The work place check list must be completed within 2 months after the knowledge and practical assessment</div>
+              <div style="margin-bottom: 2px;">2. All tasks must be performed at a worksite or in simulated work at height environment.</div>
+              <div style="margin-bottom: 2px;">3. Supervisor must record the learner's performance of each task.</div>
               <div style="font-weight: bold;">Note: Should the assessment take place on-site the work place check list does not need to be completed</div>
             </div>
           </div>
 
           <!-- Assessment Checklist -->
-          <div style="margin-bottom: 20px;">
-            <div style="font-size: 11px; font-weight: bold; margin-bottom: 8px;">Fit personal protective equipment required for work at height; inspect it and use it correctly</div>
-            <table style="width: 100%; border-collapse: collapse; font-size: 10px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 7px; font-weight: bold; margin-bottom: 3px;">Fit personal protective equipment required for work at height; inspect it and use it correctly</div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 4px; text-align: left; font-weight: bold; width: 80%;">Observation & site info</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 20%;">Tick</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: left; font-weight: bold; width: 80%;">Observation & site info</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 20%;">Tick</th>
               </tr>
               ${assessmentItems.map((item, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: left; font-size: 10px;">${item}</td>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center;">
+                  <td style="border: 1px solid #000; padding: 2px; text-align: left; font-size: 6px;">${item}</td>
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center;">
                     <div class="checkbox${page15[`assessmentItem${index}`] ? ' checked' : ''}"></div>
                   </td>
                 </tr>
@@ -2651,92 +2689,92 @@ const generatePage15HTML = (formData: FormData) => {
           </div>
 
           <!-- Worksite and Job Description -->
-          <div style="margin-bottom: 20px;">
-            <div style="font-size: 11px; font-weight: bold; margin-bottom: 8px;">Worksite and job description:</div>
-            <div style="font-size: 10px; margin-bottom: 12px;">Supervisor must describe the relevant site information (for at least 1 site) where the above tasks were performed</div>
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 7px; font-weight: bold; margin-bottom: 3px;">Worksite and job description:</div>
+            <div style="font-size: 6px; margin-bottom: 5px;">Supervisor must describe the relevant site information (for at least 1 site) where the above tasks were performed</div>
             
             <!-- Site 1 -->
-            <div style="margin-bottom: 12px;">
-              <div style="display: flex; gap: 20px; margin-bottom: 5px;">
+            <div style="margin-bottom: 5px;">
+              <div style="display: flex; gap: 10px; margin-bottom: 2px;">
                 <div style="flex: 1;">
-                  <div style="font-size: 10px;">Date:</div>
-                  <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 3px;">${page15.site1Date || ''}</div>
+                  <div style="font-size: 6px;">Date:</div>
+                  <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px;">${page15.site1Date || ''}</div>
                 </div>
                 <div style="flex: 1;">
-                  <div style="font-size: 10px;">Place:</div>
-                  <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 3px;">${page15.site1Place || ''}</div>
+                  <div style="font-size: 6px;">Place:</div>
+                  <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px;">${page15.site1Place || ''}</div>
                 </div>
               </div>
               <div>
-                <div style="font-size: 10px;">Job description:</div>
-                <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 3px;">${page15.site1JobDescription || ''}</div>
+                <div style="font-size: 6px;">Job description:</div>
+                <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px;">${page15.site1JobDescription || ''}</div>
               </div>
             </div>
 
             <!-- Site 2 -->
             <div>
-              <div style="display: flex; gap: 20px; margin-bottom: 5px;">
+              <div style="display: flex; gap: 10px; margin-bottom: 2px;">
                 <div style="flex: 1;">
-                  <div style="font-size: 10px;">Date:</div>
-                  <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 3px;">${page15.site2Date || ''}</div>
+                  <div style="font-size: 6px;">Date:</div>
+                  <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px;">${page15.site2Date || ''}</div>
                 </div>
                 <div style="flex: 1;">
-                  <div style="font-size: 10px;">Place:</div>
-                  <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 3px;">${page15.site2Place || ''}</div>
+                  <div style="font-size: 6px;">Place:</div>
+                  <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px;">${page15.site2Place || ''}</div>
                 </div>
               </div>
               <div>
-                <div style="font-size: 10px;">Job description:</div>
-                <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 3px;">${page15.site2JobDescription || ''}</div>
+                <div style="font-size: 6px;">Job description:</div>
+                <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px;">${page15.site2JobDescription || ''}</div>
               </div>
             </div>
           </div>
 
           <!-- Supervisor Information -->
-          <div style="margin-bottom: 20px;">
-            <table style="width: 100%; border-collapse: collapse; font-size: 10px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 8px;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 25%;">Supervisor Name</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 25%;">Supervisor ID number</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 25%;">Contact Information</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 25%;">Supervisor Signature</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 25%;">Supervisor Name</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 25%;">Supervisor ID number</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 25%;">Contact Information</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 25%;">Supervisor Signature</th>
               </tr>
               <tr>
-                <td style="border: 1px solid #000; padding: 4px; font-size: 10px;">${page15.supervisorName || ''}</td>
-                <td style="border: 1px solid #000; padding: 4px; font-size: 10px;">${page15.supervisorId || ''}</td>
-                <td style="border: 1px solid #000; padding: 4px; font-size: 10px;">${page15.supervisorContact || ''}</td>
-                <td style="border: 1px solid #000; padding: 4px; font-size: 10px;">${page15.supervisorSignature || ''}</td>
+                <td style="border: 1px solid #000; padding: 2px; font-size: 6px;">${page15.supervisorName || ''}</td>
+                <td style="border: 1px solid #000; padding: 2px; font-size: 6px;">${page15.supervisorId || ''}</td>
+                <td style="border: 1px solid #000; padding: 2px; font-size: 6px;">${page15.supervisorContact || ''}</td>
+                <td style="border: 1px solid #000; padding: 2px; font-size: 6px;">${page15.supervisorSignature || ''}</td>
               </tr>
             </table>
           </div>
 
           <!-- Section 8: Learner Evaluation -->
-          <div style="margin-top: 20px;">
-            <div style="font-size: 12px; font-weight: bold; margin-bottom: 12px;">8. LEARNER EVALUATION OF ASSESSMENT</div>
+          <div style="margin-top: 8px;">
+            <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">8. LEARNER EVALUATION OF ASSESSMENT</div>
             
-            <div style="font-size: 10px; margin-bottom: 12px;">Learner Overall evaluation of the Assessment: 1-Needs Improvement;2-Satisfactory;3-Good;4-Excellent</div>
+            <div style="font-size: 6px; margin-bottom: 5px;">Learner Overall evaluation of the Assessment: 1-Needs Improvement;2-Satisfactory;3-Good;4-Excellent</div>
 
-            <table style="width: 100%; border-collapse: collapse; font-size: 10px; table-layout: fixed; border: 1px solid #000;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 4px; text-align: left; font-weight: bold; width: 60%;">Criteria</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 10%;">1</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 10%;">2</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 10%;">3</th>
-                <th style="border: 1px solid #000; padding: 4px; text-align: center; font-weight: bold; width: 10%;">4</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: left; font-weight: bold; width: 60%;">Criteria</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 10%;">1</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 10%;">2</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 10%;">3</th>
+                <th style="border: 1px solid #000; padding: 2px; text-align: center; font-weight: bold; width: 10%;">4</th>
               </tr>
               ${evaluationCriteria.map((criteria, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: left; font-size: 10px;">${criteria}</td>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center;">
+                  <td style="border: 1px solid #000; padding: 2px; text-align: left; font-size: 6px;">${criteria}</td>
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center;">
                     <div class="checkbox${page15[`evaluation${index}`] === '1' ? ' checked' : ''}"></div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center;">
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center;">
                     <div class="checkbox${page15[`evaluation${index}`] === '2' ? ' checked' : ''}"></div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center;">
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center;">
                     <div class="checkbox${page15[`evaluation${index}`] === '3' ? ' checked' : ''}"></div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 4px; text-align: center;">
+                  <td style="border: 1px solid #000; padding: 2px; text-align: center;">
                     <div class="checkbox${page15[`evaluation${index}`] === '4' ? ' checked' : ''}"></div>
                   </td>
                 </tr>
@@ -2744,19 +2782,19 @@ const generatePage15HTML = (formData: FormData) => {
             </table>
 
             <!-- Signatures -->
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0;">
               <div>
-                <div style="font-weight: bold; font-size: 10px; margin-bottom: 8px;">Learner Signature</div>
-                <div style="border-bottom: 1px solid #000; height: 25px; font-size: 10px; padding: 3px;">${page15.learnerSignature || ''}</div>
+                <div style="font-weight: bold; font-size: 6px; margin-bottom: 3px;">Learner Signature</div>
+                <div style="border-bottom: 1px solid #000; height: 15px; font-size: 6px; padding: 1px;">${page15.learnerSignature || ''}</div>
               </div>
               <div>
-                <div style="font-weight: bold; font-size: 10px; margin-bottom: 8px;">Assessor / Facilitator Signature</div>
-                <div style="border-bottom: 1px solid #000; height: 25px; font-size: 10px; padding: 3px;">${page15.assessorFacilitatorSignature || ''}</div>
+                <div style="font-weight: bold; font-size: 6px; margin-bottom: 3px;">Assessor / Facilitator Signature</div>
+                <div style="border-bottom: 1px solid #000; height: 15px; font-size: 6px; padding: 1px;">${page15.assessorFacilitatorSignature || ''}</div>
               </div>
             </div>
 
             <!-- Footer -->
-            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 10px; margin-top: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 6px; margin-top: 8px;">
               <div>FARM ToCli POE Version -1.0</div>
               <div style="text-align: center;">
                 <div>MHTA-T-008</div>
@@ -2809,50 +2847,50 @@ const generatePage16HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- Section 11: Learner Feedback on Assessment -->
-        <div style="margin: 20px 0;">
-          <div style="font-size: 14px; font-weight: bold; margin-bottom: 20px;">11. LEARNER FEEDBACK ON ASSESSMENT</div>
+        <div style="margin: 8px 0;">
+          <div style="font-size: 9px; font-weight: bold; margin-bottom: 8px;">11. LEARNER FEEDBACK ON ASSESSMENT</div>
           
           <!-- Initial Satisfaction Questions Table -->
-          <table style="width: 100%; border-collapse: collapse; font-size: 12px; table-layout: fixed; border: 1px solid #000; margin-bottom: 25px;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 7px; table-layout: fixed; border: 1px solid #000; margin-bottom: 8px;">
             <tr>
-              <th style="border: 1px solid #000; padding: 8px; text-align: left; font-weight: bold; width: 60%;">Questions</th>
-              <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">1</th>
-              <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">2</th>
-              <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">3</th>
-              <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">4</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 60%;">Questions</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">1</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">2</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">3</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">4</th>
             </tr>
             ${initialSatisfactionQuestions.map((question, index) => `
               <tr>
-                <td style="border: 1px solid #000; padding: 8px; text-align: left; font-size: 12px;">${question}</td>
-                <td style="border: 1px solid #000; padding: 8px; text-align: center; font-size: 12px;">${page16[`satisfaction_${index}_1`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 8px; text-align: center; font-size: 12px;">${page16[`satisfaction_${index}_2`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 8px; text-align: center; font-size: 12px;">${page16[`satisfaction_${index}_3`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 8px; text-align: center; font-size: 12px;">${page16[`satisfaction_${index}_4`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 7px;">${question}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_1`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_2`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_3`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_4`] || ''}</td>
               </tr>
             `).join('')}
           </table>
 
           <!-- Before Assessment Section -->
-          <div style="margin-bottom: 25px;">
-            <div style="font-size: 14px; font-weight: bold; margin-bottom: 12px;">Before Assessment</div>
-            <table style="width: 100%; border-collapse: collapse; font-size: 12px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">Before Assessment</div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 8px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
-                <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
-                <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">No</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">No</th>
               </tr>
               ${beforeAssessmentQuestions.map((question, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 8px; text-align: left; font-size: 12px;">${question}</td>
-                  <td style="border: 1px solid #000; padding: 8px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                      <span style="font-size: 12px;">Yes</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 6px;">${question}</td>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">Yes</span>
                       <div class="checkbox${page16[`beforeAssessment_${index}_yes`] === 'yes' ? ' checked' : ''}"></div>
                     </div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 8px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                      <span style="font-size: 12px;">No</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">No</span>
                       <div class="checkbox${page16[`beforeAssessment_${index}_no`] === 'no' ? ' checked' : ''}"></div>
                     </div>
                   </td>
@@ -2862,26 +2900,26 @@ const generatePage16HTML = (formData: FormData) => {
           </div>
 
           <!-- Before, during and/or after assessment Section -->
-          <div style="margin-bottom: 25px;">
-            <div style="font-size: 14px; font-weight: bold; margin-bottom: 12px;">Before, during and/or after the assessment, did the Assessor:</div>
-            <table style="width: 100%; border-collapse: collapse; font-size: 12px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">Before, during and/or after the assessment, did the Assessor:</div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 8px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
-                <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
-                <th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; width: 10%;">No</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">No</th>
               </tr>
               ${duringAfterQuestions.map((question, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 8px; text-align: left; font-size: 12px;">${question}</td>
-                  <td style="border: 1px solid #000; padding: 8px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                      <span style="font-size: 12px;">Yes</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 6px;">${question}</td>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">Yes</span>
                       <div class="checkbox${page16[`duringAfter_${index}_yes`] === 'yes' ? ' checked' : ''}"></div>
                     </div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 8px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                      <span style="font-size: 12px;">No</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">No</span>
                       <div class="checkbox${page16[`duringAfter_${index}_no`] === 'no' ? ' checked' : ''}"></div>
                     </div>
                   </td>
@@ -2891,26 +2929,26 @@ const generatePage16HTML = (formData: FormData) => {
           </div>
 
           <!-- Learner Comments -->
-          <div style="margin-bottom: 25px;">
-            <div style="font-size: 12px; margin-bottom: 12px;">Learner: Please provide constructive comment and annotations or opt not to comment</div>
-            <div style="border: 1px solid #000; padding: 12px; min-height: 100px; font-size: 12px;">${page16.learnerComments || ''}</div>
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 7px; margin-bottom: 5px;">Learner: Please provide constructive comment and annotations or opt not to comment</div>
+            <div style="border: 1px solid #000; padding: 3px; min-height: 40px; font-size: 6px;">${page16.learnerComments || ''}</div>
           </div>
 
           <!-- Signatures -->
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 30px 0;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 10px 0;">
             <div>
-              <div style="font-weight: bold; font-size: 12px; margin-bottom: 12px; text-align: center; line-height: 1.2;">Learner /<br/>Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 35px; font-size: 12px; padding: 5px; width: 100%;">${page16.learnerSignature || ''}</div>
+              <div style="font-weight: bold; font-size: 7px; margin-bottom: 5px; text-align: center; line-height: 1.2;">Learner /<br/>Signature</div>
+              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 2px; width: 100%;">${page16.learnerSignature || ''}</div>
             </div>
             <div>
-              <div style="font-weight: bold; font-size: 12px; margin-bottom: 6px; text-align: center;">Assessor / Facilitator</div>
-              <div style="font-weight: bold; font-size: 12px; margin-bottom: 12px; text-align: center;">Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 35px; font-size: 12px; padding: 5px; width: 100%;">${page16.assessorFacilitatorSignature || ''}</div>
+              <div style="font-weight: bold; font-size: 7px; margin-bottom: 3px; text-align: center;">Assessor / Facilitator</div>
+              <div style="font-weight: bold; font-size: 7px; margin-bottom: 5px; text-align: center;">Signature</div>
+              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 2px; width: 100%;">${page16.assessorFacilitatorSignature || ''}</div>
             </div>
           </div>
 
           <!-- Footer -->
-          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; margin-top: 30px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 7px; margin-top: 8px;">
             <div>FARM ToCli POE Version -1.0</div>
             <div style="text-align: center;">
               <div>MHTA-T-008</div>
@@ -2947,36 +2985,36 @@ const generatePage17HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- Section 9: Summative Assessment -->
-        <div style="margin: 20px 0;">
-          <div style="font-size: 16px; font-weight: bold; margin-bottom: 20px;">9. SUMMATIVE ASSESSMENT AND FEEDBACK:</div>
+        <div style="margin: 8px 0;">
+          <div style="font-size: 9px; font-weight: bold; margin-bottom: 8px;">9. SUMMATIVE ASSESSMENT AND FEEDBACK:</div>
           
           <!-- Fall Arrest & Rescue Management Table -->
           <div style="border: 1px solid #ccc;">
-            <div style="background-color: #f5f5f5; padding: 8px; font-weight: bold; font-size: 12px; text-align: center;">
+            <div style="background-color: #f5f5f5; padding: 3px; font-weight: bold; font-size: 7px; text-align: center;">
               FALL ARREST & RESCUE MANAGEMENT – TOWER CLIMBER (FARM-TOCLI)
             </div>
             
             <!-- Specific Outcomes -->
             <div style="border-bottom: 1px solid #ccc;">
-              <div style="display: grid; grid-template-columns: 1fr 3fr 60px 60px; gap: 0; font-size: 10px; font-weight: bold;">
-                <div style="border-right: 1px solid #ccc; padding: 8px; text-align: center; font-weight: bold; font-size: 11px;">Specific Outcome 1</div>
-                <div style="border-right: 1px solid #ccc; padding: 8px; font-weight: normal;">Explain the use of a range of fall arrest equipment and knowledge of applicable regulations regulating fall arrest equipment</div>
-                <div style="border-right: 1px solid #ccc; padding: 8px; text-align: center;">A</div>
-                <div style="padding: 8px; text-align: center;">NYA</div>
+              <div style="display: grid; grid-template-columns: 1fr 3fr 40px 40px; gap: 0; font-size: 6px; font-weight: bold;">
+                <div style="border-right: 1px solid #ccc; padding: 3px; text-align: center; font-weight: bold; font-size: 6px;">Specific Outcome 1</div>
+                <div style="border-right: 1px solid #ccc; padding: 3px; font-weight: normal;">Explain the use of a range of fall arrest equipment and knowledge of applicable regulations regulating fall arrest equipment</div>
+                <div style="border-right: 1px solid #ccc; padding: 3px; text-align: center;">A</div>
+                <div style="padding: 3px; text-align: center;">NYA</div>
               </div>
               
               ${specificOutcomes.map((outcome, index) => `
-                <div style="display: grid; grid-template-columns: 1fr 3fr 60px 60px; gap: 0; font-size: 10px; border-top: 1px solid #ccc;">
-                  <div style="border-right: 1px solid #ccc; padding: 8px; text-align: center;">
-                    <span style="font-weight: bold; font-size: 11px;">Specific Outcome ${outcome.id}</span>
+                <div style="display: grid; grid-template-columns: 1fr 3fr 40px 40px; gap: 0; font-size: 6px; border-top: 1px solid #ccc;">
+                  <div style="border-right: 1px solid #ccc; padding: 3px; text-align: center;">
+                    <span style="font-weight: bold; font-size: 6px;">Specific Outcome ${outcome.id}</span>
                   </div>
-                  <div style="border-right: 1px solid #ccc; padding: 8px;">
-                    <span style="font-size: 9px;">${outcome.text}</span>
+                  <div style="border-right: 1px solid #ccc; padding: 3px;">
+                    <span style="font-size: 5px;">${outcome.text}</span>
                   </div>
-                  <div style="border-right: 1px solid #ccc; padding: 8px; display: flex; justify-content: center; align-items: center;">
+                  <div style="border-right: 1px solid #ccc; padding: 3px; display: flex; justify-content: center; align-items: center;">
                     <div class="checkbox${page17.specificOutcomes?.[index]?.achieved ? ' checked' : ''}"></div>
                   </div>
-                  <div style="padding: 8px; display: flex; justify-content: center; align-items: center;">
+                  <div style="padding: 3px; display: flex; justify-content: center; align-items: center;">
                     <div class="checkbox${page17.specificOutcomes?.[index]?.notAchieved ? ' checked' : ''}"></div>
                   </div>
                 </div>
@@ -2984,14 +3022,14 @@ const generatePage17HTML = (formData: FormData) => {
             </div>
 
             <!-- Knowledge Questionnaire Results -->
-            <div style="border-bottom: 1px solid #ccc; padding: 8px;">
-              <div style="display: grid; grid-template-columns: 1fr auto auto auto; gap: 16px; font-size: 12px;">
+            <div style="border-bottom: 1px solid #ccc; padding: 3px;">
+              <div style="display: grid; grid-template-columns: 1fr auto auto auto; gap: 8px; font-size: 6px;">
                 <div style="font-weight: bold;">Knowledge Questionnaire Results</div>
-                <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="display: flex; align-items: center; gap: 3px;">
                   <span>A</span>
                   <div class="checkbox${page17.knowledgeResults === 'achieved' ? ' checked' : ''}"></div>
                 </div>
-                <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="display: flex; align-items: center; gap: 3px;">
                   <span>NYA</span>
                   <div class="checkbox${page17.knowledgeResults === 'not-achieved' ? ' checked' : ''}"></div>
                 </div>
@@ -3002,14 +3040,14 @@ const generatePage17HTML = (formData: FormData) => {
             </div>
 
             <!-- Observation Checklist -->
-            <div style="border-bottom: 1px solid #ccc; padding: 8px;">
-              <div style="display: grid; grid-template-columns: 1fr auto auto auto; gap: 16px; font-size: 12px;">
+            <div style="border-bottom: 1px solid #ccc; padding: 3px;">
+              <div style="display: grid; grid-template-columns: 1fr auto auto auto; gap: 8px; font-size: 6px;">
                 <div style="font-weight: bold;">Observation Checklist</div>
-                <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="display: flex; align-items: center; gap: 3px;">
                   <span>A</span>
                   <div class="checkbox${page17.observationResults === 'achieved' ? ' checked' : ''}"></div>
                 </div>
-                <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="display: flex; align-items: center; gap: 3px;">
                   <span>NYA</span>
                   <div class="checkbox${page17.observationResults === 'not-achieved' ? ' checked' : ''}"></div>
                 </div>
@@ -3020,20 +3058,20 @@ const generatePage17HTML = (formData: FormData) => {
             </div>
 
             <!-- Assessment Result -->
-            <div style="padding: 8px;">
-              <div style="display: grid; grid-template-columns: 1fr auto auto auto; gap: 16px; font-size: 12px;">
+            <div style="padding: 3px;">
+              <div style="display: grid; grid-template-columns: 1fr auto auto auto; gap: 8px; font-size: 6px;">
                 <div style="font-weight: bold;">Assessment Result</div>
                 <div>
-                  <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 2px;">${page17.assessmentDate || ''}</div>
+                  <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px;">${page17.assessmentDate || ''}</div>
                 </div>
-                <div style="display: flex; gap: 16px;">
-                  <label style="display: flex; align-items: center; gap: 8px;">
+                <div style="display: flex; gap: 8px;">
+                  <label style="display: flex; align-items: center; gap: 3px;">
                     <div class="checkbox${page17.assessmentResult === 'competent' ? ' checked' : ''}"></div>
-                    <span style="font-size: 10px;">Competent</span>
+                    <span style="font-size: 6px;">Competent</span>
                   </label>
-                  <label style="display: flex; align-items: center; gap: 8px;">
+                  <label style="display: flex; align-items: center; gap: 3px;">
                     <div class="checkbox${page17.assessmentResult === 'not-competent' ? ' checked' : ''}"></div>
-                    <span style="font-size: 10px;">Not yet Competent</span>
+                    <span style="font-size: 6px;">Not yet Competent</span>
                   </label>
                 </div>
                 <div></div>
@@ -3042,23 +3080,23 @@ const generatePage17HTML = (formData: FormData) => {
           </div>
 
           <!-- Summative Assessment Results -->
-          <div style="margin-top: 16px;">
-            <div style="font-weight: bold; font-size: 12px; margin-bottom: 8px;">SUMMATIVE ASSESSMENT RESULTS</div>
-            <div style="border: 1px solid #ccc; padding: 12px;">
-              <div style="display: grid; grid-template-columns: 1fr auto auto; gap: 16px; font-size: 12px;">
+          <div style="margin-top: 8px;">
+            <div style="font-weight: bold; font-size: 7px; margin-bottom: 4px;">SUMMATIVE ASSESSMENT RESULTS</div>
+            <div style="border: 1px solid #ccc; padding: 3px;">
+              <div style="display: grid; grid-template-columns: 1fr auto auto; gap: 8px; font-size: 6px;">
                 <div>Knowledge, Practical and workplace application has been completed and assessed</div>
                 <div>
-                  <div style="font-size: 10px;">DATE:</div>
-                  <div style="border-bottom: 1px solid #000; height: 20px; font-size: 10px; padding: 2px; margin-top: 4px;">${page17.summativeDate || ''}</div>
+                  <div style="font-size: 5px;">DATE:</div>
+                  <div style="border-bottom: 1px solid #000; height: 12px; font-size: 5px; padding: 1px; margin-top: 2px;">${page17.summativeDate || ''}</div>
                 </div>
-                <div style="display: flex; gap: 16px;">
-                  <label style="display: flex; align-items: center; gap: 8px;">
+                <div style="display: flex; gap: 8px;">
+                  <label style="display: flex; align-items: center; gap: 3px;">
                     <div class="checkbox${page17.summativeResults === 'completed' ? ' checked' : ''}"></div>
-                    <span style="font-size: 10px;">Completed</span>
+                    <span style="font-size: 5px;">Completed</span>
                   </label>
-                  <label style="display: flex; align-items: center; gap: 8px;">
+                  <label style="display: flex; align-items: center; gap: 3px;">
                     <div class="checkbox${page17.summativeResults === 'not-completed' ? ' checked' : ''}"></div>
-                    <span style="font-size: 10px;">Not yet Completed</span>
+                    <span style="font-size: 5px;">Not yet Completed</span>
                   </label>
                 </div>
               </div>
@@ -3066,33 +3104,33 @@ const generatePage17HTML = (formData: FormData) => {
           </div>
 
           <!-- Moderation -->
-          <div style="margin-top: 20px;">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div style="margin-top: 8px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
               <div>
-                <div style="font-size: 12px;">Moderation Date:</div>
-                <div style="border-bottom: 1px solid #000; height: 20px; font-size: 12px; padding: 2px; margin-top: 4px;">${page17.moderationDate || ''}</div>
+                <div style="font-size: 6px;">Moderation Date:</div>
+                <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px; margin-top: 2px;">${page17.moderationDate || ''}</div>
               </div>
               <div>
-                <div style="font-size: 12px;">Moderator Name:</div>
-                <div style="border-bottom: 1px solid #000; height: 20px; font-size: 12px; padding: 2px; margin-top: 4px;">${page17.moderatorName || ''}</div>
+                <div style="font-size: 6px;">Moderator Name:</div>
+                <div style="border-bottom: 1px solid #000; height: 12px; font-size: 6px; padding: 1px; margin-top: 2px;">${page17.moderatorName || ''}</div>
               </div>
             </div>
 
-            <div style="margin-top: 16px;">
-              <div style="font-size: 12px;">Moderator Signature:</div>
-              <div style="border-bottom: 1px solid #000; height: 30px; font-size: 12px; padding: 2px; margin-top: 4px;">${page17.moderatorSignature || ''}</div>
+            <div style="margin-top: 8px;">
+              <div style="font-size: 6px;">Moderator Signature:</div>
+              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 1px; margin-top: 2px;">${page17.moderatorSignature || ''}</div>
             </div>
           </div>
 
           <!-- Final Signatures -->
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px;">
             <div>
-              <div style="font-size: 12px; font-weight: bold;">Learner Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 30px; font-size: 12px; padding: 2px; margin-top: 4px;">${page17.learnerSignature || ''}</div>
+              <div style="font-size: 6px; font-weight: bold;">Learner Signature</div>
+              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 1px; margin-top: 2px;">${page17.learnerSignature || ''}</div>
             </div>
             <div>
-              <div style="font-size: 12px; font-weight: bold;">Assessor / Facilitator Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 30px; font-size: 12px; padding: 2px; margin-top: 4px;">${page17.assessorFacilitatorSignature || ''}</div>
+              <div style="font-size: 6px; font-weight: bold;">Assessor / Facilitator Signature</div>
+              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 1px; margin-top: 2px;">${page17.assessorFacilitatorSignature || ''}</div>
             </div>
           </div>
         </div>
