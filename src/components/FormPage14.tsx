@@ -283,31 +283,22 @@ const FormPage14: React.FC = () => {
 
           {/* Signatures */}
         <div className="grid grid-cols-2 gap-4 mb-3 print:mb-2">
-            <div>
-            <Label className="text-sm font-medium print:text-xs">Learner Signature</Label>
-              <Input 
-              value={formData.page14.learnerSignature || ''}
-                onChange={(e) => handleInputChange('learnerSignature', e.target.value)}
-              className="mt-1 h-8 print:h-6"
-              />
+            <div className="mt-4">
+              <div className="border-2 border-form-border p-4">
+            <Label className="text-sm font-semibold mb-2 block">Learner Signature</Label>
+              </div>
+              <div className="border-b border-form-border mt-4"></div>
             </div>
-            <div>
-            <Label className="text-sm font-medium print:text-xs">Assessor / Facilitator Signature</Label>
-              <Input 
-              value={formData.page14.assessorFacilitatorSignature || ''}
-                onChange={(e) => handleInputChange('assessorFacilitatorSignature', e.target.value)}
-              className="mt-1 h-8 print:h-6"
-              />
+            <div className="mt-4">
+              <div className="border-2 border-form-border p-4">
+            <Label className="text-sm font-semibold mb-2 block">Assessor / Facilitator Signature</Label>
+              </div>
+              <div className="border-b border-form-border mt-4"></div>
             </div>
           </div>
 
           {/* Footer */}
         <div className="flex justify-between items-center text-xs print:text-[10px]">
-          <div>FARM TOCII POE Version -1.0</div>
-          <div className="text-center">
-            <div>MHTA-T-008</div>
-            <div>Date 23.02.2022</div>
-          </div>
           <div>Page | 14</div>
         </div>
       </Card>

@@ -52,13 +52,13 @@ const FormPage12: React.FC = () => {
             <h3 className="font-bold text-base leading-relaxed">33. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</h3>
             
             <div className="flex justify-center my-4 space-x-4">
-              <div className="w-20 h-20 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image17.png" alt="Excavator" className="w-full h-full object-contain" />
               </div>
-              <div className="w-20 h-20 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image18.png" alt="Tower" className="w-full h-full object-contain" />
               </div>
-              <div className="w-20 h-20 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image19.png" alt="Person" className="w-full h-full object-contain" />
               </div>
             </div>
@@ -75,13 +75,13 @@ const FormPage12: React.FC = () => {
             <h3 className="font-bold text-base leading-relaxed">34. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</h3>
             
             <div className="flex justify-center my-4 space-x-4">
-              <div className="w-20 h-20 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image20.png" alt="Crane" className="w-full h-full object-contain" />
               </div>
-              <div className="w-20 h-20 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image21.png" alt="Warning" className="w-full h-full object-contain" />
               </div>
-              <div className="w-20 h-20 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image22.png" alt="Sparks" className="w-full h-full object-contain" />
               </div>
             </div>
@@ -382,24 +382,19 @@ const FormPage12: React.FC = () => {
         </div>
 
         {/* Signatures */}
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <Label htmlFor="learnerSignature" className="text-sm">Learner Signature</Label>
-            <Input
-              id="learnerSignature"
-              value={pageData.learnerSignature}
-              onChange={(e) => handleInputChange('learnerSignature', e.target.value)}
-              className="mt-2 text-sm h-8"
-            />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+          <div className="mt-4">
+            <div className="border-2 border-form-border p-4">
+              <Label className="text-sm font-semibold mb-2 block">Learner Signature</Label>
+            </div>
+            <div className="border-b border-form-border mt-4"></div>
           </div>
-          <div>
-            <Label htmlFor="assessorFacilitatorSignature" className="text-sm">Assessor / Facilitator Signature</Label>
-            <Input
-              id="assessorFacilitatorSignature"
-              value={pageData.assessorFacilitatorSignature}
-              onChange={(e) => handleInputChange('assessorFacilitatorSignature', e.target.value)}
-              className="mt-2 text-sm h-8"
-            />
+          
+          <div className="mt-4">
+            <div className="border-2 border-form-border p-4">
+              <Label className="text-sm font-semibold mb-2 block">Assessor / Facilitator Signature</Label>
+            </div>
+            <div className="border-b border-form-border mt-4"></div>
           </div>
         </div>
 

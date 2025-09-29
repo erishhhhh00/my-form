@@ -5,12 +5,15 @@ import { useForm } from '@/context/FormContext';
 import { ChevronLeft, ChevronRight, FileText } from 'lucide-react';
 
 const FormNavigator: React.FC = () => {
-  const { currentPage, totalPages, nextPage, prevPage, generatePDF } = useForm();
+  const { currentPage, totalPages, nextPage, prevPage, generatePDF, formData } = useForm();
 
   const canGoNext = currentPage < totalPages;
   const canGoPrev = currentPage > 1;
   const isLastPage = currentPage === totalPages;
 
+  // Check if Page 2 validation passes
+  const isPage2Valid = currentPage !== 2 || (formData.page2.learnerSignatureImage && formData.page2.assessorSignatureImage);
+  
   // Don't show navigator on page 17 - it has its own send button
   if (isLastPage) {
     return null;
@@ -48,7 +51,7 @@ const FormNavigator: React.FC = () => {
         {/* Next Button */}
         <Button
           onClick={nextPage}
-          disabled={!canGoNext}
+          disabled={!canGoNext || !isPage2Valid}
           className="flex items-center gap-2 w-full sm:w-auto"
         >
           Next

@@ -188,22 +188,18 @@ const FormPage3: React.FC = () => {
 
       {/* Signatures */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-        <div className="border-2 border-form-border p-4">
-          <Label className="text-sm font-semibold mb-2 block">Learner Signature</Label>
-          <Input
-            value={pageData.learnerSignaturePage3}
-            onChange={(e) => handleInputChange('learnerSignaturePage3', e.target.value)}
-            className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary"
-          />
+        <div className="mt-4">
+          <div className="border-2 border-form-border p-4">
+            <Label className="text-sm font-semibold mb-2 block">Learner Signature</Label>
+          </div>
+          <div className="border-b border-form-border mt-4"></div>
         </div>
         
-        <div className="border-2 border-form-border p-4">
-          <Label className="text-sm font-semibold mb-2 block">Assessor / Facilitator Signature</Label>
-          <Input
-            value={pageData.assessorFacilitatorSignature}
-            onChange={(e) => handleInputChange('assessorFacilitatorSignature', e.target.value)}
-            className="border-0 border-b border-form-border rounded-none focus:ring-0 focus:border-b-2 focus:border-primary"
-          />
+        <div className="mt-4">
+          <div className="border-2 border-form-border p-4">
+            <Label className="text-sm font-semibold mb-2 block">Assessor / Facilitator Signature</Label>
+          </div>
+          <div className="border-b border-form-border mt-4"></div>
         </div>
       </div>
 

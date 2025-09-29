@@ -1515,7 +1515,7 @@ const generatePage8HTML = (formData: FormData) => {
                 `).join('')}
               </div>
                   </div>
-                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage8.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Free space diagram" />
@@ -1534,7 +1534,7 @@ const generatePage8HTML = (formData: FormData) => {
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage9.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Horizontal lifeline diagram" />
@@ -1553,7 +1553,7 @@ const generatePage8HTML = (formData: FormData) => {
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage10.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Y-lanyard diagram" />
@@ -1681,7 +1681,7 @@ const generatePage9HTML = (formData: FormData) => {
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage12.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Horizontal lifeline diagram" />
@@ -1700,7 +1700,7 @@ const generatePage9HTML = (formData: FormData) => {
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage11.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Falling distance diagram" />
@@ -1828,7 +1828,7 @@ const generatePage10HTML = (formData: FormData) => {
                       `).join('')}
                     </div>
                   </div>
-                  <div style="width: 60px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
+                  <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;">
                     <img src="/images/qusimage13.png" 
                          style="width: 100%; height: 100%; object-fit: contain;" 
                          alt="Pulley system diagram" />
@@ -1883,13 +1883,13 @@ const generatePage11HTML = (formData: FormData) => {
           <div style="margin-bottom: 10px;">
             <div style="font-weight: bold; margin-bottom: 5px; font-size: 8px;">31. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
             <div style="display: flex; justify-content: center; margin: 8px 0;">
-              <div style="width: 50px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
                 <img src="images/image14.png" alt="Phone icon" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 50px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
                 <img src="images/image15.png" alt="Warning hand" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 50px; height: 50px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
                 <img src="images/image16.png" alt="Car icon" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
             </div>
@@ -1979,13 +1979,13 @@ const generatePage12HTML = (formData: FormData) => {
           <div style="margin: 8px 0;">
             <div style="font-weight: bold; margin-bottom: 4px; font-size: 7px;">33. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
             <div style="display: flex; justify-content: center; margin: 8px 0;">
-              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image17.png" alt="Excavator" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image18.png" alt="Tower" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image19.png" alt="Person" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
             </div>
@@ -1998,13 +1998,13 @@ const generatePage12HTML = (formData: FormData) => {
           <div style="margin: 8px 0;">
             <div style="font-weight: bold; margin-bottom: 4px; font-size: 7px;">34. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
             <div style="display: flex; justify-content: center; margin: 8px 0;">
-              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image20.png" alt="Crane" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image21.png" alt="Warning" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
-              <div style="width: 40px; height: 40px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
+              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 4px;">
                 <img src="images/image22.png" alt="Sparks" style="width: 100%; height: 100%; object-fit: contain;" />
               </div>
             </div>
@@ -2848,50 +2848,50 @@ const generatePage16HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- Section 11: Learner Feedback on Assessment -->
-        <div style="margin: 15px 0;">
-          <div style="font-size: 11px; font-weight: bold; margin-bottom: 12px;">11. LEARNER FEEDBACK ON ASSESSMENT</div>
+        <div style="margin: 8px 0;">
+          <div style="font-size: 9px; font-weight: bold; margin-bottom: 8px;">11. LEARNER FEEDBACK ON ASSESSMENT</div>
           
           <!-- Initial Satisfaction Questions Table -->
-          <table style="width: 100%; border-collapse: collapse; font-size: 8px; table-layout: fixed; border: 1px solid #000; margin-bottom: 12px;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 7px; table-layout: fixed; border: 1px solid #000; margin-bottom: 8px;">
             <tr>
-              <th style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: bold; width: 60%;">Questions</th>
-              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">1</th>
-              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">2</th>
-              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">3</th>
-              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">4</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 60%;">Questions</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">1</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">2</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">3</th>
+              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">4</th>
             </tr>
             ${initialSatisfactionQuestions.map((question, index) => `
               <tr>
-                <td style="border: 1px solid #000; padding: 6px; text-align: left; font-size: 8px; min-height: 25px;">${question}</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_1`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_2`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_3`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_4`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 7px;">${question}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_1`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_2`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_3`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_4`] || ''}</td>
               </tr>
             `).join('')}
           </table>
 
           <!-- Before Assessment Section -->
-          <div style="margin-bottom: 12px;">
-            <div style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">Before Assessment</div>
-            <table style="width: 100%; border-collapse: collapse; font-size: 8px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">Before Assessment</div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
-                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
-                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">No</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">No</th>
               </tr>
               ${beforeAssessmentQuestions.map((question, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 6px; text-align: left; font-size: 8px; min-height: 25px;">${question}</td>
-                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                      <span style="font-size: 8px;">Yes</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 6px;">${question}</td>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">Yes</span>
                       <div class="checkbox${page16[`beforeAssessment_${index}_yes`] === 'yes' ? ' checked' : ''}"></div>
                     </div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                      <span style="font-size: 8px;">No</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">No</span>
                       <div class="checkbox${page16[`beforeAssessment_${index}_no`] === 'no' ? ' checked' : ''}"></div>
                     </div>
                   </td>
@@ -2901,26 +2901,26 @@ const generatePage16HTML = (formData: FormData) => {
           </div>
 
           <!-- Before, during and/or after assessment Section -->
-          <div style="margin-bottom: 12px;">
-            <div style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">Before, during and/or after the assessment, did the Assessor:</div>
-            <table style="width: 100%; border-collapse: collapse; font-size: 8px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">Before, during and/or after the assessment, did the Assessor:</div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
-                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
-                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">No</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
+                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">No</th>
               </tr>
               ${duringAfterQuestions.map((question, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 6px; text-align: left; font-size: 8px; min-height: 25px;">${question}</td>
-                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                      <span style="font-size: 8px;">Yes</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 6px;">${question}</td>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">Yes</span>
                       <div class="checkbox${page16[`duringAfter_${index}_yes`] === 'yes' ? ' checked' : ''}"></div>
                     </div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                      <span style="font-size: 8px;">No</span>
+                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
+                      <span style="font-size: 6px;">No</span>
                       <div class="checkbox${page16[`duringAfter_${index}_no`] === 'no' ? ' checked' : ''}"></div>
                     </div>
                   </td>
@@ -2930,27 +2930,27 @@ const generatePage16HTML = (formData: FormData) => {
           </div>
 
           <!-- Learner Comments -->
-          <div style="margin-bottom: 12px;">
-            <div style="font-size: 9px; margin-bottom: 8px;">Learner: Please provide constructive comment and annotations or opt not to comment</div>
-            <div style="border: 1px solid #000; padding: 8px; min-height: 60px; font-size: 8px;">${page16.learnerComments || ''}</div>
+          <div style="margin-bottom: 8px;">
+            <div style="font-size: 7px; margin-bottom: 5px;">Learner: Please provide constructive comment and annotations or opt not to comment</div>
+            <div style="border: 1px solid #000; padding: 3px; min-height: 40px; font-size: 6px;">${page16.learnerComments || ''}</div>
           </div>
 
           <!-- Signatures -->
-          <div style="display: flex; justify-content: space-between; margin: 15px 0;">
+          <div style="display: flex; justify-content: space-between; margin: 10px 0;">
             <div style="width: 48%; text-align: center;">
-              <div style="font-weight: bold; font-size: 9px; margin-bottom: 8px; text-align: center;">Learner Signature</div>
+              <div style="font-weight: bold; font-size: 7px; margin-bottom: 5px; text-align: center;">Learner Signature</div>
               ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
-              <div style="border-bottom: 1px solid #000; margin-top: 8px;"></div>
+              <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
             </div>
             <div style="width: 48%; text-align: center;">
-              <div style="font-weight: bold; font-size: 9px; margin-bottom: 8px; text-align: center;">Assessor / Facilitator Signature</div>
+              <div style="font-weight: bold; font-size: 7px; margin-bottom: 5px; text-align: center;">Assessor / Facilitator Signature</div>
               ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
-              <div style="border-bottom: 1px solid #000; margin-top: 8px;"></div>
+              <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
             </div>
           </div>
 
           <!-- Footer -->
-          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 9px; margin-top: 12px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 7px; margin-top: 8px;">
             <div style="text-align: center;">
               <div>Page | 16</div>
             </div>

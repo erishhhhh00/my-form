@@ -15,6 +15,24 @@ const FormPage2: React.FC = () => {
     updateFormData('page2', { [field]: value });
   };
 
+  const handleImageUpload = (field: string, file: File) => {
+    // Validate image dimensions
+    const img = new Image();
+    img.onload = () => {
+      if (img.width !== 325 || img.height !== 96) {
+        alert(`Image must be exactly 325px wide and 96px tall. Current size: ${img.width}x${img.height}px`);
+        return;
+      }
+      
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        handleInputChange(field, event.target?.result as string);
+      };
+      reader.readAsDataURL(file);
+    };
+    img.src = URL.createObjectURL(file);
+  };
+
   return (
     <div className="w-full max-w-full mx-auto p-1 sm:p-2 md:p-3 space-y-1 sm:space-y-2 md:space-y-3">
       <Card className="border-2 border-form-border bg-card p-1 sm:p-2 md:p-3">
@@ -406,6 +424,7 @@ const FormPage2: React.FC = () => {
         <div className="border border-form-border">
           <div className="border-b border-form-border p-1 bg-form-header font-semibold text-xs">Learner Signature</div>
           <div className="p-2 h-20">
+            <div className="text-xs text-gray-600 mb-1">Required: 325px × 96px</div>
             <div className="flex items-center gap-2">
               <input
                 type="file"
@@ -413,11 +432,7 @@ const FormPage2: React.FC = () => {
                 onChange={(e) => {
                   const file = e.target.files?.[0];
                   if (file) {
-                    const reader = new FileReader();
-                    reader.onload = (event) => {
-                      handleInputChange('learnerSignatureImage', event.target?.result as string);
-                    };
-                    reader.readAsDataURL(file);
+                    handleImageUpload('learnerSignatureImage', file);
                   }
                 }}
                 className="text-xs"
@@ -436,6 +451,7 @@ const FormPage2: React.FC = () => {
         <div className="border border-form-border">
           <div className="border-b border-form-border p-1 bg-form-header font-semibold text-xs">Assessor / Facilitator Signature</div>
           <div className="p-2 h-20">
+            <div className="text-xs text-gray-600 mb-1">Required: 325px × 96px</div>
             <div className="flex items-center gap-2">
               <input
                 type="file"
@@ -443,11 +459,7 @@ const FormPage2: React.FC = () => {
                 onChange={(e) => {
                   const file = e.target.files?.[0];
                   if (file) {
-                    const reader = new FileReader();
-                    reader.onload = (event) => {
-                      handleInputChange('assessorSignatureImage', event.target?.result as string);
-                    };
-                    reader.readAsDataURL(file);
+                    handleImageUpload('assessorSignatureImage', file);
                   }
                 }}
                 className="text-xs"

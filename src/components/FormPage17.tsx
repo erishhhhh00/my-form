@@ -316,33 +316,27 @@ const FormPage17: React.FC = () => {
               </div>
             </div>
 
-            <div>
-              <Label className="text-sm">Moderator Signature:</Label>
-              <Input 
-                value={formData.page17.moderatorSignature}
-                onChange={(e) => handleInputChange('moderatorSignature', e.target.value)}
-                className="mt-1 h-12"
-              />
+            <div className="mt-4">
+              <div className="border-2 border-form-border p-4">
+                <Label className="text-sm font-semibold mb-2 block">Moderator Signature:</Label>
+              </div>
+              <div className="border-b border-form-border mt-4"></div>
             </div>
           </div>
 
           {/* Final Signatures */}
           <div className="grid grid-cols-2 gap-4 mt-6">
-            <div>
-              <Label className="text-sm font-medium">Learner Signature</Label>
-              <Input 
-                value={formData.page17.learnerSignature}
-                onChange={(e) => handleInputChange('learnerSignature', e.target.value)}
-                className="mt-1 h-12"
-              />
+            <div className="mt-4">
+              <div className="border-2 border-form-border p-4">
+                <Label className="text-sm font-semibold mb-2 block">Learner Signature</Label>
+              </div>
+              <div className="border-b border-form-border mt-4"></div>
             </div>
-            <div>
-              <Label className="text-sm font-medium">Assessor / Facilitator Signature</Label>
-              <Input 
-                value={formData.page17.assessorFacilitatorSignature}
-                onChange={(e) => handleInputChange('assessorFacilitatorSignature', e.target.value)}
-                className="mt-1 h-12"
-              />
+            <div className="mt-4">
+              <div className="border-2 border-form-border p-4">
+                <Label className="text-sm font-semibold mb-2 block">Assessor / Facilitator Signature</Label>
+              </div>
+              <div className="border-b border-form-border mt-4"></div>
             </div>
           </div>
 

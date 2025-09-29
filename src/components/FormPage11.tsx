@@ -60,13 +60,13 @@ const FormPage11: React.FC = () => {
             <h3 className="font-bold text-sm leading-relaxed">31. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</h3>
             
             <div className="flex justify-center my-3 space-x-3">
-              <div className="w-16 h-16 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image14.png" alt="Phone icon" className="w-full h-full object-contain" />
               </div>
-              <div className="w-16 h-16 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image15.png" alt="Warning hand" className="w-full h-full object-contain" />
               </div>
-              <div className="w-16 h-16 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
                 <img src="images/image16.png" alt="Car icon" className="w-full h-full object-contain" />
               </div>
             </div>
@@ -196,26 +196,19 @@ const FormPage11: React.FC = () => {
           </div>
 
           {/* Signatures */}
-          <div className="form-signatures mt-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <Label htmlFor="learnerSignature" className="text-xs font-semibold mb-1 block">Learner Signature</Label>
-                <Input
-                  id="learnerSignature"
-                  value={pageData.learnerSignature}
-                  onChange={(e) => handleInputChange('learnerSignature', e.target.value)}
-                  className="mt-1 text-xs"
-                />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div className="mt-4">
+              <div className="border-2 border-form-border p-4">
+                <Label className="text-sm font-semibold mb-2 block">Learner Signature</Label>
               </div>
-              <div>
-                <Label htmlFor="assessorFacilitatorSignature" className="text-xs font-semibold mb-1 block">Assessor / Facilitator Signature</Label>
-                <Input
-                  id="assessorFacilitatorSignature"
-                  value={pageData.assessorFacilitatorSignature}
-                  onChange={(e) => handleInputChange('assessorFacilitatorSignature', e.target.value)}
-                  className="mt-1 text-xs"
-                />
+              <div className="border-b border-form-border mt-4"></div>
+            </div>
+            
+            <div className="mt-4">
+              <div className="border-2 border-form-border p-4">
+                <Label className="text-sm font-semibold mb-2 block">Assessor / Facilitator Signature</Label>
               </div>
+              <div className="border-b border-form-border mt-4"></div>
             </div>
           </div>
 

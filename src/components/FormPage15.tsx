@@ -261,21 +261,17 @@ const FormPage15: React.FC = () => {
 
             {/* Signatures */}
             <div className="grid grid-cols-2 gap-4 mt-4 print:mt-3">
-              <div>
-                <Label className="text-xs font-medium">Learner Signature</Label>
-                <Input 
-                  value={formData.page15.learnerSignature || ''}
-                  onChange={(e) => handleInputChange('learnerSignature', e.target.value)}
-                  className="mt-1 h-10 print:h-8 border-0 bg-transparent border-b border-gray-400 rounded-none"
-                />
+              <div className="mt-4">
+                <div className="border-2 border-form-border p-4">
+                  <Label className="text-sm font-semibold mb-2 block">Learner Signature</Label>
+                </div>
+                <div className="border-b border-form-border mt-4"></div>
               </div>
-              <div>
-                <Label className="text-xs font-medium">Assessor / Facilitator Signature</Label>
-                <Input 
-                  value={formData.page15.assessorFacilitatorSignature || ''}
-                  onChange={(e) => handleInputChange('assessorFacilitatorSignature', e.target.value)}
-                  className="mt-1 h-10 print:h-8 border-0 bg-transparent border-b border-gray-400 rounded-none"
-                />
+              <div className="mt-4">
+                <div className="border-2 border-form-border p-4">
+                  <Label className="text-sm font-semibold mb-2 block">Assessor / Facilitator Signature</Label>
+                </div>
+                <div className="border-b border-form-border mt-4"></div>
               </div>
             </div>
 
