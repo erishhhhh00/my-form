@@ -543,26 +543,25 @@ const generateFormFooter = (pageNum: number) => {
   return `
     <div class="form-footer">
       <div class="footer-title">FALL ARREST & RESCUE MANAGEMENT - ToCif</div>
-      <div class="footer-details">
-        <span>FARM ToCli POE Version -1.0</span>
-        <span>MHTA-T-008</span>
-        <span>Date 23.02.2022</span>
+      <div class="footer-details" style="text-align: right;">
         <span>Page | ${pageNum}</span>
       </div>
     </div>
   `;
 };
 
-const generateSignatureSection = (learnerSig: string = '', assessorSig: string = '') => {
+const generateSignatureSection = (learnerSig: string = '', assessorSig: string = '', learnerImage?: string, assessorImage?: string) => {
   return `
-    <div class="signatures-section">
-      <div>
-        <label class="signature-label">Learner Signature</label>
-        <div class="signature-field">${learnerSig}</div>
+    <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+      <div style="width: 48%; text-align: center;">
+        <strong style="font-size: 7px;">Learner Signature</strong>
+        ${learnerImage ? `<img src="${learnerImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+        <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
       </div>
-      <div>
-        <label class="signature-label">Assessor / Facilitator Signature</label>
-        <div class="signature-field">${assessorSig}</div>
+      <div style="width: 48%; text-align: center;">
+        <strong style="font-size: 7px;">Assessor / Facilitator Signature</strong>
+        ${assessorImage ? `<img src="${assessorImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+        <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
       </div>
     </div>
   `;
@@ -764,10 +763,10 @@ const generatePage2HTML = (formData: FormData) => {
             <tr>
               <td colspan="2" style="border: 1px solid #000; padding: 2px; font-size: 8px;"></td>
               <td style="border: 1px solid #000; padding: 2px; text-align: center;">
-                <div class="checkbox${page2.firstAttempt ? ' checked' : ''}">${page2.firstAttempt ? '✓' : ''}</div>
+              <div class="checkbox${page2.firstAttempt ? ' checked' : ''}">${page2.firstAttempt ? '✓' : ''}</div>
               </td>
               <td style="border: 1px solid #000; padding: 2px; text-align: center;">
-                <div class="checkbox${page2.secondAttempt ? ' checked' : ''}">${page2.secondAttempt ? '✓' : ''}</div>
+              <div class="checkbox${page2.secondAttempt ? ' checked' : ''}">${page2.secondAttempt ? '✓' : ''}</div>
               </td>
             </tr>
           </tbody>
@@ -818,7 +817,7 @@ const generatePage2HTML = (formData: FormData) => {
               </tr>
             </tbody>
           </table>
-        </div>
+            </div>
 
         <!-- Learner with Special Need requirement -->
         <div style="margin: 5px 0;">
@@ -893,30 +892,27 @@ const generatePage2HTML = (formData: FormData) => {
               </tr>
             </tbody>
           </table>
-        </div>
+          </div>
 
         <!-- Signatures Section -->
-        <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; margin-top: 5px;">
-          <tr>
-            <td style="border: 1px solid #000; padding: 3px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong style="font-size: 7px;">Learner Signature</strong>
-              <div style="margin-top: 3px; border-bottom: 1px solid #000; height: 18px; font-size: 8px; padding: 2px;">${page2.learnerSignature || ''}</div>
-            </td>
-            <td style="border: 1px solid #000; padding: 3px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong style="font-size: 7px;">Assessor / Facilitator Signature</strong>
-              <div style="margin-top: 3px; border-bottom: 1px solid #000; height: 18px; font-size: 8px; padding: 2px;">${page2.assessorSignature || ''}</div>
-            </td>
-          </tr>
-        </table>
+        <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+          <div style="width: 48%; text-align: center;">
+            <strong style="font-size: 7px;">Learner Signature</strong>
+            ${page2.learnerSignatureImage ? `<img src="${page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
+          </div>
+          <div style="width: 48%; text-align: center;">
+            <strong style="font-size: 7px;">Assessor / Facilitator Signature</strong>
+            ${page2.assessorSignatureImage ? `<img src="${page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
+          </div>
+        </div>
         
         <!-- Footer -->
         <div style="text-align: center; margin-top: 8px; font-size: 7px;">
           <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #000; padding-top: 3px;">
-            <span>FARM ToCli POE Version -1.0</span>
-            <span>MHTA-T-008</span>
-            <span>Date 23.02.2022</span>
             <span>Page | 2</span>
-          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -979,7 +975,7 @@ const generatePage3HTML = (formData: FormData) => {
           <div style="margin-bottom: 8px;">
             <strong style="font-size: 8px;">External Source referred:</strong> ${page3.externalSourceReferred || ''}
             </div>
-            </div>
+        </div>
         
         <div style="margin: 10px 0;">
           <h3 style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">3. ASSESSMENT CONTRACT</h3>
@@ -1009,9 +1005,9 @@ const generatePage3HTML = (formData: FormData) => {
           </table>
           </div>
         
-        ${generateSignatureSection(page3.learnerSignaturePage3, page3.assessorFacilitatorSignature)}
+        ${generateSignatureSection(page3.learnerSignaturePage3, page3.assessorFacilitatorSignature, formData.page2.learnerSignatureImage, formData.page2.assessorSignatureImage)}
         ${generateFormFooter(3)}
-        </div>
+      </div>
     </div>
   `;
 };
@@ -1033,8 +1029,8 @@ const generatePage4HTML = (formData: FormData) => {
           <!-- Make use of interpreter bullet point -->
           <div style="margin-bottom: 8px;">
             <p style="margin: 0;"><strong>•Make use of an interpreter (with no technical knowledge of the subject matter) where language barriers may exist.</strong></p>
-          </div>
-
+        </div>
+        
           <!-- Make use of witness bullet point -->
           <div style="margin-bottom: 8px;">
             <p style="margin: 0;"><strong>•Make use of a witness to the assessment. The witness may only observe the assessment, but may not take any part in the assessment.</strong></p>
@@ -1086,25 +1082,22 @@ const generatePage4HTML = (formData: FormData) => {
         </div>
 
         <!-- Signatures Section -->
-        <table class="table" style="width: 100%; border-collapse: collapse; border: 1px solid #000; margin-top: 15px;">
-          <tr>
-            <td style="border: 1px solid #000; padding: 5px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong style="font-size: 8px;">Learner Signature</strong>
-              <div style="margin-top: 5px; border-bottom: 1px solid #000; height: 15px; font-size: 8px;">${page4.learnerSignature || ''}</div>
-            </td>
-            <td style="border: 1px solid #000; padding: 5px; width: 50%; text-align: center; background: #f9f9f9;">
-              <strong style="font-size: 8px;">Assessor / Facilitator Signature</strong>
-              <div style="margin-top: 5px; border-bottom: 1px solid #000; height: 15px; font-size: 8px;">${page4.assessorFacilitatorSignature || ''}</div>
-            </td>
-          </tr>
-        </table>
+        <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+          <div style="width: 48%; text-align: center;">
+            <strong style="font-size: 7px;">Learner Signature</strong>
+            ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
+          </div>
+          <div style="width: 48%; text-align: center;">
+            <strong style="font-size: 7px;">Assessor / Facilitator Signature</strong>
+            ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
+          </div>
+        </div>
         
         <!-- Footer -->
         <div style="text-align: center; margin-top: 8px; font-size: 7px;">
           <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #000; padding-top: 3px;">
-            <span>FARM ToCli POE Version -1.0</span>
-            <span>MHTA-T-008</span>
-            <span>Date 23.02.2022</span>
             <span>Page | 4</span>
           </div>
         </div>
@@ -1195,14 +1188,16 @@ const generatePage5HTML = (formData: FormData) => {
           </div>
         </div>
         
-        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page5.learnerSignature || ''}</div>
+        <div style="margin: 10px 0; display: flex; justify-content: space-between;">
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page5.assessorFacilitatorSignature || ''}</div>
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
         </div>
         
@@ -1326,7 +1321,7 @@ const generatePage6HTML = (formData: FormData) => {
 
         </div>
 
-        ${generateSignatureSection(page6.learnerSignature, page6.assessorFacilitatorSignature)}
+        ${generateSignatureSection(page6.learnerSignature, page6.assessorFacilitatorSignature, formData.page2.learnerSignatureImage, formData.page2.assessorSignatureImage)}
         ${generateFormFooter(6)}
       </div>
     </div>
@@ -1426,7 +1421,7 @@ const generatePage7HTML = (formData: FormData) => {
 
         </div>
 
-        ${generateSignatureSection(page7.learnerSignature, page7.assessorFacilitatorSignature)}
+        ${generateSignatureSection(page7.learnerSignature, page7.assessorFacilitatorSignature, formData.page2.learnerSignatureImage, formData.page2.assessorSignatureImage)}
         ${generateFormFooter(7)}
       </div>
     </div>
@@ -1463,7 +1458,7 @@ const generatePage8HTML = (formData: FormData) => {
       options: [
         'a) Never carry out electrical work on electrical equipment, circuits and gear without appropriate qualifications and compliance to regulations',
         'b) Never work under the influence of alcohol substances (alcohol or drugs) which are illegal or in excess of legal levels or where this impairs ability to perform tasks',
-        'c) Never using a hand held device while climbing and only use after making calls by pulling over or using hands-free devices, when it is safe to do so',
+        'c) Never using a hand held phone whilst driving and only making calls by pulling over or using hands-free devices, when it is safe to do so',
         'd) Never wear a climbing helmet for anything else than working at height'
       ]
     },
@@ -1479,22 +1474,22 @@ const generatePage8HTML = (formData: FormData) => {
     },
     {
       id: 'question17',
-      text: 'What angle should be maintained when using a Y-lanyard?',
+      text: 'What type of lifeline is shown below and what is its purpose?',
       options: [
-        'a) 45 degrees',
-        'b) 60 degrees',
-        'c) 90 degrees',
-        'd) 120 degrees'
+        'a) Horizontal – for movement side to side',
+        'b) Vertical – for movement up and down',
+        'c) Diagonal – for roof top movement',
+        'd) None of the above'
       ]
     },
     {
       id: 'question18',
       text: 'Why must you always work in team (Buddy System)',
       options: [
-        'a) To have someone to talk to',
-        'b) So that one worker can be on look-out',
-        'c) In case of emergencies, help can be contacted and rescues can be performed quickly',
-        'd) None of the above'
+        'a. To have someone to talk to',
+        'b. So that one worker can be on look-out',
+        'c. In case of emergencies, help can be contacted and rescues can be performed quickly',
+        'd. None of the above'
       ]
     }
   ];
@@ -1579,14 +1574,16 @@ const generatePage8HTML = (formData: FormData) => {
           `).join('')}
         </div>
         
-        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page8.learnerSignature || ''}</div>
+        <div style="margin: 10px 0; display: flex; justify-content: space-between;">
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page8.assessorFacilitatorSignature || ''}</div>
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
         </div>
         
@@ -1724,14 +1721,16 @@ const generatePage9HTML = (formData: FormData) => {
           `).join('')}
         </div>
         
-        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page9.learnerSignature || ''}</div>
+        <div style="margin: 10px 0; display: flex; justify-content: space-between;">
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page9.assessorFacilitatorSignature || ''}</div>
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
         </div>
         
@@ -1850,14 +1849,16 @@ const generatePage10HTML = (formData: FormData) => {
           `).join('')}
         </div>
         
-        <div style="margin: 10px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page10.learnerSignature || ''}</div>
+        <div style="margin: 10px 0; display: flex; justify-content: space-between;">
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Learner Signature</label>
+            ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
-          <div>
-            <label style="font-size: 8px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
-            <div style="border: 1px solid #000; height: 20px; font-size: 8px; padding: 2px;">${page10.assessorFacilitatorSignature || ''}</div>
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 2px;">Assessor / Facilitator Signature</label>
+            ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
           </div>
         </div>
         
@@ -1947,7 +1948,7 @@ const generatePage11HTML = (formData: FormData) => {
           </div>
         </div>
         
-        ${generateSignatureSection(page11.learnerSignature, page11.assessorFacilitatorSignature)}
+        ${generateSignatureSection(page11.learnerSignature, page11.assessorFacilitatorSignature, formData.page2.learnerSignatureImage, formData.page2.assessorSignatureImage)}
         ${generateFormFooter(11)}
       </div>
     </div>
@@ -2110,7 +2111,7 @@ const generatePage12HTML = (formData: FormData) => {
           </div>
         </div>
         
-        ${generateSignatureSection(page12.learnerSignature, page12.assessorFacilitatorSignature)}
+        ${generateSignatureSection(page12.learnerSignature, page12.assessorFacilitatorSignature, formData.page2.learnerSignatureImage, formData.page2.assessorSignatureImage)}
         ${generateFormFooter(12)}
       </div>
     </div>
@@ -2411,14 +2412,16 @@ const generatePage13HTML = (formData: FormData) => {
         </div>
 
         <!-- Signatures Section -->
-        <div style="margin: 2px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
-          <div>
-            <label style="font-size: 4px; font-weight: bold; display: block; margin-bottom: 1px;">Learner Signature</label>
-            <div style="border: 1px solid #000; height: 10px; font-size: 4px; padding: 1px;">${page13.learnerSignature || ''}</div>
+        <div style="margin: 2px 0; display: flex; justify-content: space-between;">
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 1px;">Learner Signature</label>
+            ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 1px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 2px;"></div>
           </div>
-          <div>
-            <label style="font-size: 4px; font-weight: bold; display: block; margin-bottom: 1px;">Assessor / Facilitator Signature</label>
-            <div style="border: 1px solid #000; height: 10px; font-size: 4px; padding: 1px;">${page13.assessorFacilitatorSignature || ''}</div>
+          <div style="width: 48%; text-align: center;">
+            <label style="font-size: 7px; font-weight: bold; display: block; margin-bottom: 1px;">Assessor / Facilitator Signature</label>
+            ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 1px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 2px;"></div>
           </div>
         </div>
         
@@ -2603,25 +2606,24 @@ const generatePage14HTML = (formData: FormData) => {
         </div>
 
         <!-- Signatures -->
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 1px 0;">
-          <div>
-            <div style="font-weight: bold; font-size: 4px; margin-bottom: 1px;">Learner Signature</div>
-            <div style="border: 1px solid #000; height: 10px; padding: 1px; font-size: 4px;">${page14.learnerSignature || ''}</div>
+        <div style="display: flex; justify-content: space-between; margin: 1px 0;">
+          <div style="width: 48%; text-align: center;">
+            <div style="font-weight: bold; font-size: 7px; margin-bottom: 1px;">Learner Signature</div>
+            ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 1px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 2px;"></div>
           </div>
-          <div>
-            <div style="font-weight: bold; font-size: 4px; margin-bottom: 1px;">Assessor / Facilitator Signature</div>
-            <div style="border: 1px solid #000; height: 10px; padding: 1px; font-size: 4px;">${page14.assessorFacilitatorSignature || ''}</div>
+          <div style="width: 48%; text-align: center;">
+            <div style="font-weight: bold; font-size: 7px; margin-bottom: 1px;">Assessor / Facilitator Signature</div>
+            ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 1px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+            <div style="border-bottom: 1px solid #000; margin-top: 2px;"></div>
           </div>
         </div>
 
         <!-- Footer -->
         <div style="display: flex; justify-content: space-between; align-items: center; font-size: 4px; margin-top: 2px;">
-          <div>FARM TOCII POE Version -1.0</div>
           <div style="text-align: center;">
-            <div>MHTA-T-008</div>
-            <div>Date 23.02.2022</div>
+            <div>Page | 14</div>
           </div>
-          <div>Page | 14</div>
         </div>
       </div>
     </div>
@@ -2782,25 +2784,24 @@ const generatePage15HTML = (formData: FormData) => {
             </table>
 
             <!-- Signatures -->
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0;">
-              <div>
-                <div style="font-weight: bold; font-size: 6px; margin-bottom: 3px;">Learner Signature</div>
-                <div style="border-bottom: 1px solid #000; height: 15px; font-size: 6px; padding: 1px;">${page15.learnerSignature || ''}</div>
+            <div style="display: flex; justify-content: space-between; margin: 8px 0;">
+              <div style="width: 48%; text-align: center;">
+                <div style="font-weight: bold; font-size: 7px; margin-bottom: 3px;">Learner Signature</div>
+                ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 1px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+                <div style="border-bottom: 1px solid #000; margin-top: 3px;"></div>
               </div>
-              <div>
-                <div style="font-weight: bold; font-size: 6px; margin-bottom: 3px;">Assessor / Facilitator Signature</div>
-                <div style="border-bottom: 1px solid #000; height: 15px; font-size: 6px; padding: 1px;">${page15.assessorFacilitatorSignature || ''}</div>
+              <div style="width: 48%; text-align: center;">
+                <div style="font-weight: bold; font-size: 7px; margin-bottom: 3px;">Assessor / Facilitator Signature</div>
+                ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 1px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+                <div style="border-bottom: 1px solid #000; margin-top: 3px;"></div>
               </div>
             </div>
 
             <!-- Footer -->
             <div style="display: flex; justify-content: space-between; align-items: center; font-size: 6px; margin-top: 8px;">
-              <div>FARM ToCli POE Version -1.0</div>
               <div style="text-align: center;">
-                <div>MHTA-T-008</div>
-                <div>Date 23.02.2022</div>
+                <div>Page | 15</div>
               </div>
-              <div>Page | 15</div>
             </div>
           </div>
         </div>
@@ -2847,50 +2848,50 @@ const generatePage16HTML = (formData: FormData) => {
         ${generateFormHeader()}
         
         <!-- Section 11: Learner Feedback on Assessment -->
-        <div style="margin: 8px 0;">
-          <div style="font-size: 9px; font-weight: bold; margin-bottom: 8px;">11. LEARNER FEEDBACK ON ASSESSMENT</div>
+        <div style="margin: 15px 0;">
+          <div style="font-size: 11px; font-weight: bold; margin-bottom: 12px;">11. LEARNER FEEDBACK ON ASSESSMENT</div>
           
           <!-- Initial Satisfaction Questions Table -->
-          <table style="width: 100%; border-collapse: collapse; font-size: 7px; table-layout: fixed; border: 1px solid #000; margin-bottom: 8px;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 8px; table-layout: fixed; border: 1px solid #000; margin-bottom: 12px;">
             <tr>
-              <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 60%;">Questions</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">1</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">2</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">3</th>
-              <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">4</th>
+              <th style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: bold; width: 60%;">Questions</th>
+              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">1</th>
+              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">2</th>
+              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">3</th>
+              <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">4</th>
             </tr>
             ${initialSatisfactionQuestions.map((question, index) => `
               <tr>
-                <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 7px;">${question}</td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_1`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_2`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_3`] || ''}</td>
-                <td style="border: 1px solid #000; padding: 3px; text-align: center; font-size: 7px;">${page16[`satisfaction_${index}_4`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 6px; text-align: left; font-size: 8px; min-height: 25px;">${question}</td>
+                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_1`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_2`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_3`] || ''}</td>
+                <td style="border: 1px solid #000; padding: 6px; text-align: center; font-size: 8px; min-height: 25px;">${page16[`satisfaction_${index}_4`] || ''}</td>
               </tr>
             `).join('')}
           </table>
 
           <!-- Before Assessment Section -->
-          <div style="margin-bottom: 8px;">
-            <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">Before Assessment</div>
-            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 12px;">
+            <div style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">Before Assessment</div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 8px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
-                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
-                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">No</th>
+                <th style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
+                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
+                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">No</th>
               </tr>
               ${beforeAssessmentQuestions.map((question, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 6px;">${question}</td>
-                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
-                      <span style="font-size: 6px;">Yes</span>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: left; font-size: 8px; min-height: 25px;">${question}</td>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                      <span style="font-size: 8px;">Yes</span>
                       <div class="checkbox${page16[`beforeAssessment_${index}_yes`] === 'yes' ? ' checked' : ''}"></div>
                     </div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
-                      <span style="font-size: 6px;">No</span>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                      <span style="font-size: 8px;">No</span>
                       <div class="checkbox${page16[`beforeAssessment_${index}_no`] === 'no' ? ' checked' : ''}"></div>
                     </div>
                   </td>
@@ -2900,26 +2901,26 @@ const generatePage16HTML = (formData: FormData) => {
           </div>
 
           <!-- Before, during and/or after assessment Section -->
-          <div style="margin-bottom: 8px;">
-            <div style="font-size: 8px; font-weight: bold; margin-bottom: 5px;">Before, during and/or after the assessment, did the Assessor:</div>
-            <table style="width: 100%; border-collapse: collapse; font-size: 6px; table-layout: fixed; border: 1px solid #000;">
+          <div style="margin-bottom: 12px;">
+            <div style="font-size: 10px; font-weight: bold; margin-bottom: 8px;">Before, during and/or after the assessment, did the Assessor:</div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 8px; table-layout: fixed; border: 1px solid #000;">
               <tr>
-                <th style="border: 1px solid #000; padding: 3px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
-                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
-                <th style="border: 1px solid #000; padding: 3px; text-align: center; font-weight: bold; width: 10%;">No</th>
+                <th style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: bold; width: 80%;">Questions</th>
+                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">Yes</th>
+                <th style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; width: 10%;">No</th>
               </tr>
               ${duringAfterQuestions.map((question, index) => `
                 <tr>
-                  <td style="border: 1px solid #000; padding: 3px; text-align: left; font-size: 6px;">${question}</td>
-                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
-                      <span style="font-size: 6px;">Yes</span>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: left; font-size: 8px; min-height: 25px;">${question}</td>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                      <span style="font-size: 8px;">Yes</span>
                       <div class="checkbox${page16[`duringAfter_${index}_yes`] === 'yes' ? ' checked' : ''}"></div>
                     </div>
                   </td>
-                  <td style="border: 1px solid #000; padding: 3px; text-align: center;">
-                    <div style="display: flex; align-items: center; justify-content: center; gap: 3px;">
-                      <span style="font-size: 6px;">No</span>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center; min-height: 25px;">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                      <span style="font-size: 8px;">No</span>
                       <div class="checkbox${page16[`duringAfter_${index}_no`] === 'no' ? ' checked' : ''}"></div>
                     </div>
                   </td>
@@ -2929,32 +2930,30 @@ const generatePage16HTML = (formData: FormData) => {
           </div>
 
           <!-- Learner Comments -->
-          <div style="margin-bottom: 8px;">
-            <div style="font-size: 7px; margin-bottom: 5px;">Learner: Please provide constructive comment and annotations or opt not to comment</div>
-            <div style="border: 1px solid #000; padding: 3px; min-height: 40px; font-size: 6px;">${page16.learnerComments || ''}</div>
+          <div style="margin-bottom: 12px;">
+            <div style="font-size: 9px; margin-bottom: 8px;">Learner: Please provide constructive comment and annotations or opt not to comment</div>
+            <div style="border: 1px solid #000; padding: 8px; min-height: 60px; font-size: 8px;">${page16.learnerComments || ''}</div>
           </div>
 
           <!-- Signatures -->
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 10px 0;">
-            <div>
-              <div style="font-weight: bold; font-size: 7px; margin-bottom: 5px; text-align: center; line-height: 1.2;">Learner /<br/>Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 2px; width: 100%;">${page16.learnerSignature || ''}</div>
+          <div style="display: flex; justify-content: space-between; margin: 15px 0;">
+            <div style="width: 48%; text-align: center;">
+              <div style="font-weight: bold; font-size: 9px; margin-bottom: 8px; text-align: center;">Learner Signature</div>
+              ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+              <div style="border-bottom: 1px solid #000; margin-top: 8px;"></div>
             </div>
-            <div>
-              <div style="font-weight: bold; font-size: 7px; margin-bottom: 3px; text-align: center;">Assessor / Facilitator</div>
-              <div style="font-weight: bold; font-size: 7px; margin-bottom: 5px; text-align: center;">Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 2px; width: 100%;">${page16.assessorFacilitatorSignature || ''}</div>
+            <div style="width: 48%; text-align: center;">
+              <div style="font-weight: bold; font-size: 9px; margin-bottom: 8px; text-align: center;">Assessor / Facilitator Signature</div>
+              ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+              <div style="border-bottom: 1px solid #000; margin-top: 8px;"></div>
             </div>
           </div>
 
           <!-- Footer -->
-          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 7px; margin-top: 8px;">
-            <div>FARM ToCli POE Version -1.0</div>
+          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 9px; margin-top: 12px;">
             <div style="text-align: center;">
-              <div>MHTA-T-008</div>
-              <div>Date 23.02.2022</div>
+              <div>Page | 16</div>
             </div>
-            <div>Page | 16</div>
           </div>
         </div>
       </div>
@@ -3123,14 +3122,16 @@ const generatePage17HTML = (formData: FormData) => {
           </div>
 
           <!-- Final Signatures -->
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px;">
-            <div>
-              <div style="font-size: 6px; font-weight: bold;">Learner Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 1px; margin-top: 2px;">${page17.learnerSignature || ''}</div>
+          <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+            <div style="width: 48%; text-align: center;">
+              <div style="font-size: 7px; font-weight: bold;">Learner Signature</div>
+              ${formData.page2.learnerSignatureImage ? `<img src="${formData.page2.learnerSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Learner Signature" />` : ''}
+              <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
             </div>
-            <div>
-              <div style="font-size: 6px; font-weight: bold;">Assessor / Facilitator Signature</div>
-              <div style="border-bottom: 1px solid #000; height: 18px; font-size: 6px; padding: 1px; margin-top: 2px;">${page17.assessorFacilitatorSignature || ''}</div>
+            <div style="width: 48%; text-align: center;">
+              <div style="font-size: 7px; font-weight: bold;">Assessor / Facilitator Signature</div>
+              ${formData.page2.assessorSignatureImage ? `<img src="${formData.page2.assessorSignatureImage}" style="width: 60px; height: 40px; object-fit: contain; margin-top: 2px; display: block; margin-left: auto; margin-right: auto;" alt="Assessor Signature" />` : ''}
+              <div style="border-bottom: 1px solid #000; margin-top: 5px;"></div>
             </div>
           </div>
         </div>

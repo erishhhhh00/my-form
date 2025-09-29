@@ -405,32 +405,68 @@ const FormPage2: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
         <div className="border border-form-border">
           <div className="border-b border-form-border p-1 bg-form-header font-semibold text-xs">Learner Signature</div>
-          <div className="p-2 h-12">
-            <Input
-              value={pageData.learnerSignature}
-              onChange={(e) => handleInputChange('learnerSignature', e.target.value)}
-              className="border-0 focus:ring-0 h-8 text-sm"
-              placeholder="Digital signature or name"
-            />
+          <div className="p-2 h-20">
+            <div className="flex items-center gap-2">
+              <input
+                type="file"
+                accept="image/*"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                      handleInputChange('learnerSignatureImage', event.target?.result as string);
+                    };
+                    reader.readAsDataURL(file);
+                  }
+                }}
+                className="text-xs"
+              />
+              {pageData.learnerSignatureImage && (
+                <img 
+                  src={pageData.learnerSignatureImage} 
+                  alt="Learner Signature" 
+                  className="w-8 h-8 object-cover border rounded"
+                />
+              )}
+            </div>
           </div>
         </div>
         
         <div className="border border-form-border">
           <div className="border-b border-form-border p-1 bg-form-header font-semibold text-xs">Assessor / Facilitator Signature</div>
-          <div className="p-2 h-12">
-            <Input
-              value={pageData.assessorSignature}
-              onChange={(e) => handleInputChange('assessorSignature', e.target.value)}
-              className="border-0 focus:ring-0 h-8 text-sm"
-              placeholder="Digital signature or name"
-            />
+          <div className="p-2 h-20">
+            <div className="flex items-center gap-2">
+              <input
+                type="file"
+                accept="image/*"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                      handleInputChange('assessorSignatureImage', event.target?.result as string);
+                    };
+                    reader.readAsDataURL(file);
+                  }
+                }}
+                className="text-xs"
+              />
+              {pageData.assessorSignatureImage && (
+                <img 
+                  src={pageData.assessorSignatureImage} 
+                  alt="Assessor Signature" 
+                  className="w-8 h-8 object-cover border rounded"
+                />
+              )}
+            </div>
           </div>
         </div>
       </div>
 
       {/* Footer */}
       <div className="text-center text-xs">
-        <div className="mb-1">FARM ToCli POE Version -1.0&nbsp;&nbsp;&nbsp;&nbsp;MHTA-T-008&nbsp;&nbsp;&nbsp;&nbsp;Date 23.02.2022&nbsp;&nbsp;&nbsp;&nbsp;Page | 2</div>
+        <div className="mb-1 text-right">Page | 2</div>
       </div>
       </Card>
     </div>

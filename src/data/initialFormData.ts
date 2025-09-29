@@ -45,6 +45,8 @@ export const initialFormData: FormData = {
     additionalRequirements: '',
     learnerSignature: '',
     assessorSignature: '',
+    learnerSignatureImage: '',
+    assessorSignatureImage: '',
   },
   page3: {
     knowledgeWritten: false,

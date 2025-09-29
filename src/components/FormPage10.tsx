@@ -110,7 +110,6 @@ const FormPage10: React.FC = () => {
                 {index === 3 && (
                   <div className="flex items-start gap-4 my-4">
                     <div className="flex-1">
-                      <h3 className="font-bold mb-3">{index + 25}. {question.text}</h3>
                       <RadioGroup 
                         value={pageData[question.id as keyof typeof pageData] as string} 
                         onValueChange={(value) => handleInputChange(question.id, value)}
@@ -184,10 +183,7 @@ const FormPage10: React.FC = () => {
           <div className="form-footer">
             <div className="text-center">
               <div className="text-lg font-bold mb-3">FALL ARREST & RESCUE MANAGEMENT - ToClf</div>
-              <div className="text-sm text-muted-foreground flex justify-between">
-                <span>FARM ToCli POE Version -1.0</span>
-                <span>MHTA-T-008</span>
-                <span>Date 23.02.2022</span>
+              <div className="text-sm text-muted-foreground flex justify-end">
                 <span>Page | 10</span>
               </div>
             </div>

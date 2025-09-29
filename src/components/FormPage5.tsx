@@ -267,10 +267,7 @@ const FormPage5: React.FC = () => {
         {/* Footer */}
         <div className="mt-8 text-center">
           <div className="text-lg font-bold">FALL ARREST & RESCUE MANAGEMENT - ToClf</div>
-          <div className="text-sm text-muted-foreground mt-2 flex justify-between">
-            <span>FARM ToCli POE Version -1.0</span>
-            <span>MHTA-T-008</span>
-            <span>Date 23.02.2022</span>
+          <div className="text-sm text-muted-foreground mt-2 flex justify-end">
             <span>Page | 5</span>
           </div>
         </div>

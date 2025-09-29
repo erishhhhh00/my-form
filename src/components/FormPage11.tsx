@@ -223,10 +223,7 @@ const FormPage11: React.FC = () => {
           <div className="form-footer mt-4">
             <div className="text-center">
               <div className="text-sm font-bold mb-2">FALL ARREST & RESCUE MANAGEMENT - ToClf</div>
-              <div className="text-xs text-muted-foreground flex justify-between">
-                <span>FARM ToCli POE Version -1.0</span>
-                <span>MHTA-T-008</span>
-                <span>Date 23.02.2022</span>
+              <div className="text-xs text-muted-foreground flex justify-end">
                 <span>Page | 11</span>
               </div>
             </div>

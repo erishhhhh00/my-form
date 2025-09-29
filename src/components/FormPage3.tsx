@@ -209,10 +209,7 @@ const FormPage3: React.FC = () => {
 
       {/* Footer */}
       <div className="mt-6 text-center border-t border-form-border pt-4">
-        <div className="flex justify-between items-center text-sm">
-          <span>FARM ToCli POE Version -1.0</span>
-          <span>MHTA-T-008</span>
-          <span>Date 23.02.2022</span>
+        <div className="flex justify-end items-center text-sm">
           <span>Page | 3</span>
         </div>
       </div>

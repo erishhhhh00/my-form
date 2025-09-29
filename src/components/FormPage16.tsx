@@ -248,12 +248,7 @@ const FormPage16: React.FC = () => {
           </div>
 
           {/* Footer */}
-          <div className="flex justify-between items-center text-sm mt-6">
-            <div>FARM ToCli POE Version -1.0</div>
-            <div className="text-center">
-              <div>MHTA-T-008</div>
-              <div>Date 23.02.2022</div>
-            </div>
+          <div className="flex justify-end items-center text-sm mt-6">
             <div>Page | 16</div>
           </div>
         </div>

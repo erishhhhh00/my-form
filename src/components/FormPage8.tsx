@@ -40,7 +40,7 @@ const FormPage8: React.FC = () => {
       options: [
         'a) Never carry out electrical work on electrical equipment, circuits and gear without appropriate qualifications and compliance to regulations',
         'b) Never work under the influence of alcohol substances (alcohol or drugs) which are illegal or in excess of legal levels or where this impairs ability to perform tasks',
-        'c) Never using a hand held device while climbing and only use after making calls by pulling over or using hands-free devices, when it is safe to do so',
+        'c) Never using a hand held phone whilst driving and only making calls by pulling over or using hands-free devices, when it is safe to do so',
         'd) Never wear a climbing helmet for anything else than working at height'
       ]
     },
@@ -56,22 +56,22 @@ const FormPage8: React.FC = () => {
     },
     {
       id: 'question17',
-      text: 'What angle should be maintained when using a Y-lanyard?',
+      text: 'What type of lifeline is shown below and what is its purpose?',
       options: [
-        'a) 45 degrees',
-        'b) 60 degrees',
-        'c) 90 degrees',
-        'd) 120 degrees'
+        'a) Horizontal – for movement side to side',
+        'b) Vertical – for movement up and down',
+        'c) Diagonal – for roof top movement',
+        'd) None of the above'
       ]
     },
     {
       id: 'question18',
       text: 'Why must you always work in team (Buddy System)',
       options: [
-        'a) To have someone to talk to',
-        'b) So that one worker can be on look-out',
-        'c) In case of emergencies, help can be contacted and rescues can be performed quickly',
-        'd) None of the above'
+        'a. To have someone to talk to',
+        'b. So that one worker can be on look-out',
+        'c. In case of emergencies, help can be contacted and rescues can be performed quickly',
+        'd. None of the above'
       ]
     }
   ];
@@ -108,8 +108,24 @@ const FormPage8: React.FC = () => {
               {/* Add images for specific questions */}
               
               {index === 1 && (
-                <div className="flex justify-center my-4">
-                  <div className="w-40 h-32 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+                <div className="flex items-start gap-4 my-4">
+                  <div className="flex-1">
+                    <RadioGroup 
+                      value={pageData[question.id as keyof typeof pageData] as string} 
+                      onValueChange={(value) => handleInputChange(question.id, value)}
+                      className="space-y-2"
+                    >
+                      {question.options.map((option, optionIndex) => (
+                        <div key={optionIndex} className="flex items-center space-x-2">
+                          <RadioGroupItem value={option} id={`${question.id}-${optionIndex}`} />
+                          <Label htmlFor={`${question.id}-${optionIndex}`} className="text-sm leading-relaxed">
+                            {option}
+                          </Label>
+                        </div>
+                      ))}
+                    </RadioGroup>
+                  </div>
+                  <div className="w-40 h-32 border-2 border-black rounded flex items-center justify-center overflow-hidden flex-shrink-0">
                     <img 
                       src="/images/qusimage8.png" 
                       alt="Free space diagram" 
@@ -120,8 +136,24 @@ const FormPage8: React.FC = () => {
               )}
 
               {index === 3 && (
-                <div className="flex justify-center my-4">
-                  <div className="w-40 h-32 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+                <div className="flex items-start gap-4 my-4">
+                  <div className="flex-1">
+                    <RadioGroup 
+                      value={pageData[question.id as keyof typeof pageData] as string} 
+                      onValueChange={(value) => handleInputChange(question.id, value)}
+                      className="space-y-2"
+                    >
+                      {question.options.map((option, optionIndex) => (
+                        <div key={optionIndex} className="flex items-center space-x-2">
+                          <RadioGroupItem value={option} id={`${question.id}-${optionIndex}`} />
+                          <Label htmlFor={`${question.id}-${optionIndex}`} className="text-sm leading-relaxed">
+                            {option}
+                          </Label>
+                        </div>
+                      ))}
+                    </RadioGroup>
+                  </div>
+                  <div className="w-40 h-32 border-2 border-black rounded flex items-center justify-center overflow-hidden flex-shrink-0">
                     <img 
                       src="/images/qusimage9.png" 
                       alt="Horizontal lifeline diagram" 
@@ -134,7 +166,6 @@ const FormPage8: React.FC = () => {
               {index === 4 && (
                 <div className="flex items-start gap-4 my-4">
                   <div className="flex-1">
-                    <h3 className="font-bold mb-3">{index + 13}. {question.text}</h3>
                     <RadioGroup 
                       value={pageData[question.id as keyof typeof pageData] as string} 
                       onValueChange={(value) => handleInputChange(question.id, value)}
@@ -160,7 +191,7 @@ const FormPage8: React.FC = () => {
                 </div>
               )}
 
-              {index !== 4 && (
+              {index !== 1 && index !== 3 && index !== 4 && (
                 <RadioGroup 
                   value={pageData[question.id as keyof typeof pageData] as string} 
                   onValueChange={(value) => handleInputChange(question.id, value)}
@@ -205,10 +236,7 @@ const FormPage8: React.FC = () => {
         {/* Footer */}
         <div className="mt-8 text-center">
           <div className="text-lg font-bold">FALL ARREST & RESCUE MANAGEMENT - ToClf</div>
-          <div className="text-sm text-muted-foreground mt-2 flex justify-between">
-            <span>FARM ToCli POE Version -1.0</span>
-            <span>MHTA-T-008</span>
-            <span>Date 23.02.2022</span>
+          <div className="text-sm text-muted-foreground mt-2 flex justify-end">
             <span>Page | 8</span>
           </div>
         </div>

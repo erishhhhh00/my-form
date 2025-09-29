@@ -44,6 +44,8 @@ export interface FormData {
     additionalRequirements: string;
     learnerSignature: string;
     assessorSignature: string;
+    learnerSignatureImage?: string;
+    assessorSignatureImage?: string;
   };
   page3: {
     knowledgeWritten: boolean;
