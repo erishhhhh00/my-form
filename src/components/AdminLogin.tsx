@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
-import { Lock, Shield } from 'lucide-react';
+import { Lock } from 'lucide-react';
 
 interface AdminLoginProps {
   onLogin: () => void;
@@ -47,7 +47,6 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
       {/* Header outside the card */}
       <div className="text-center mb-8">
         <div className="flex items-center justify-center mb-4">
-          <Shield className="h-16 w-16 text-primary mr-3" />
           <div>
             <div className="flex items-center justify-center mb-2">
               <div className="bg-red-500 text-white px-4 py-2 text-xl font-bold mr-3 shadow-lg h-16 flex items-center" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)', transform: 'perspective(500px) rotateX(10deg)' }}>SSIPL</div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Eye, FileText, Clock, CheckCircle, LogOut, Shield } from 'lucide-react';
+import { Eye, FileText, Clock, CheckCircle, LogOut } from 'lucide-react';
 import { useSubmission } from '@/context/SubmissionContext';
 import { useAuth } from '@/context/AuthContext';
 import { FormData } from '@/types/form';
@@ -88,7 +88,6 @@ const AdminDashboard: React.FC = () => {
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <Shield className="h-6 w-6 text-red-600" />
               <div>
                 <h3 className="text-lg font-bold text-red-800">🔴 You are viewing this as Admin</h3>
                 <p className="text-sm text-red-600">You have full access to review and edit form submissions</p>
