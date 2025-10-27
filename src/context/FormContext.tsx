@@ -25,18 +25,6 @@ export const FormProvider: React.FC<FormProviderProps> = ({ children, initialDat
   };
 
   const nextPage = () => {
-    // Validation for Page 2 - require both signature images
-    if (currentPage === 2) {
-      if (!formData.page2.learnerSignatureImage || !formData.page2.assessorSignatureImage) {
-        toast({
-          title: "Signature Required",
-          description: "Please upload both Learner and Assessor signature images before proceeding.",
-          variant: "destructive",
-        });
-        return;
-      }
-    }
-
     if (currentPage < totalPages) {
       setCurrentPage(prev => prev + 1);
       toast({
