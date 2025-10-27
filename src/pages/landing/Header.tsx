@@ -71,7 +71,7 @@ const Header: React.FC = () => {
                 </div>
               )}
             </div>
-            <a href="#contact">Contact</a>
+            <a href="/user" className="apply-now-btn">Apply Now</a>
           </div>
         </nav>
       </div>
