@@ -1882,19 +1882,34 @@ const generatePage11HTML = (formData: FormData) => {
           <!-- Question 31 -->
           <div style="margin-bottom: 10px;">
             <div style="font-weight: bold; margin-bottom: 5px; font-size: 8px;">31. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</div>
-            <div style="display: flex; justify-content: center; margin: 8px 0;">
-              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
-                <img src="images/image14.png" alt="Phone icon" style="width: 100%; height: 100%; object-fit: contain;" />
+            <div style="display: flex; justify-content: center; margin: 8px 0; gap: 15px;">
+              <div style="display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-bottom: 5px;">
+                  <img src="images/image14.png" alt="Phone icon" style="width: 100%; height: 100%; object-fit: contain;" />
+                </div>
+                <div style="display: flex; align-items: center; gap: 5px;">
+                  <span style="width: 14px; height: 14px; border: 2px solid #000; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold;">${page11.question31 === 'A' ? '●' : ''}</span>
+                  <span style="font-weight: bold; font-size: 10px;">A</span>
+                </div>
               </div>
-              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
-                <img src="images/image15.png" alt="Warning hand" style="width: 100%; height: 100%; object-fit: contain;" />
+              <div style="display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-bottom: 5px;">
+                  <img src="images/image15.png" alt="Warning hand" style="width: 100%; height: 100%; object-fit: contain;" />
+                </div>
+                <div style="display: flex; align-items: center; gap: 5px;">
+                  <span style="width: 14px; height: 14px; border: 2px solid #000; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold;">${page11.question31 === 'B' ? '●' : ''}</span>
+                  <span style="font-weight: bold; font-size: 10px;">B</span>
+                </div>
               </div>
-              <div style="width: 100px; height: 80px; border: 1px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin: 0 5px;">
-                <img src="images/image16.png" alt="Car icon" style="width: 100%; height: 100%; object-fit: contain;" />
+              <div style="display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100px; height: 80px; border: 2px solid #000; background: #f8fafc; display: flex; align-items: center; justify-content: center; margin-bottom: 5px;">
+                  <img src="images/image16.png" alt="Car icon" style="width: 100%; height: 100%; object-fit: contain;" />
+                </div>
+                <div style="display: flex; align-items: center; gap: 5px;">
+                  <span style="width: 14px; height: 14px; border: 2px solid #000; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold;">${page11.question31 === 'C' ? '●' : ''}</span>
+                  <span style="font-weight: bold; font-size: 10px;">C</span>
+                </div>
               </div>
-            </div>
-            <div style="border: 1px solid #000; padding: 3px; margin-top: 3px; min-height: 20px; background: #f9f9f9; font-size: 7px;">
-              ${page11.question31 || ''}
             </div>
           </div>
 

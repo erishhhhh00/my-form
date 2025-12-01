@@ -1,33 +1,54 @@
 import React from 'react';
 import './Showcase.css';
 
-type ImageItem = { src: string; alt: string };
-
-const IMAGES: ImageItem[] = [
-  { src: '/images/img2.jpeg', alt: 'WhatsApp-Image-2025-01-24-at-1.37.00-PM' },
-  { src: '/images/WhatsApp-Image-2025-01-30-at-3.50.32-PM.jpeg', alt: 'WhatsApp-Image-2025-01-30-at-3.50.32-PM' },
-  { src: '/images/WhatsApp-Image-2025-01-30-at-3.48.55-PM.jpeg', alt: 'WhatsApp-Image-2025-01-30-at-3.48.55-PM' },
-  { src: '/images/WhatsApp-Image-2025-01-24-at-1.34.08-PM.jpeg', alt: 'WhatsApp-Image-2025-01-24-at-1.34.08-PM' },
-  { src: '/images/WhatsApp-Image-2025-01-24-at-1.18.59-PM.jpeg', alt: 'WhatsApp-Image-2025-01-24-at-1.18.59-PM' },
-  { src: '/images/Confined-Space-Safety-Training-e1738166251162.png', alt: 'Confined Space Safety Training' },
-  { src: '/images/TOWER-CLIMBING2.jpeg', alt: 'Tower Climbing 2' },
-  { src: '/images/RIGGING-AND-LIFTING-TRAINING.jpeg', alt: 'Rigging and Lifting Training' },
-  { src: '/images/TOWER-CLIMBING.jpeg', alt: 'Tower Climbing' },
-  { src: '/images/WhatsApp-Image-2025-01-30-at-3.50.32-PM (1).jpeg', alt: 'WhatsApp-Image-2025-01-30-at-3.50.32-PM (1)' },
-  { src: '/images/WhatsApp-Image-2025-01-30-at-3.48.55-PM (1).jpeg', alt: 'WhatsApp-Image-2025-01-30-at-3.48.55-PM (1)' },
-];
-
 const Showcase: React.FC = () => {
   return (
-    <section className="showcase" aria-label="Showcase Gallery">
-      <h2 className="showcase__title">Showcase</h2>
-      <div className="showcase__grid">
-        {IMAGES.map((img) => (
-          <figure key={img.src} className="showcase__item">
-            <img src={img.src} alt={img.alt} className="showcase__image" loading="lazy" />
-            <figcaption className="showcase__caption">{img.alt}</figcaption>
-          </figure>
-        ))}
+    <section className="company-policy" aria-label="Company Policy">
+      <h2 className="company-policy__title">Company Policy</h2>
+      <div className="company-policy__content">
+        <div className="company-policy__column">
+          <div className="policy-section">
+            <h3 className="policy-section__title">Commitment to Safety Excellence</h3>
+            <ul className="policy-section__list">
+              <li>Excellence Delivering high-quality training programs designed to meet industry standards and regulations.</li>
+              <li>Continuously improving our training methodologies to address emerging safety challenges</li>
+            </ul>
+          </div>
+
+          <div className="policy-section">
+            <h3 className="policy-section__title">Compliance with Standards</h3>
+            <ul className="policy-section__list">
+              <li>Ensuring all training modules align with local, national, and international safety regulations.</li>
+              <li>Maintaining transparency and adherence to legal and ethical practices in all our operations.</li>
+            </ul>
+          </div>
+
+          <div className="policy-section">
+            <h3 className="policy-section__title">Empowering Individuals and Organizations</h3>
+            <ul className="policy-section__list">
+              <li>Focusing on practical, hands-on learning to enhance safety awareness and risk management skills.</li>
+              <li>Supporting clients in achieving their safety objectives and fostering a proactive safety culture.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="company-policy__column">
+          <div className="policy-section">
+            <h3 className="policy-section__title">Sustainability and Innovation</h3>
+            <ul className="policy-section__list">
+              <li>Encouraging sustainable safety practices to minimize workplace risks and promote environmental responsibility.</li>
+              <li>Leveraging advanced technology and tools to deliver impactful training solutions.</li>
+            </ul>
+          </div>
+
+          <div className="policy-section">
+            <h3 className="policy-section__title">Continuous Improvement</h3>
+            <ul className="policy-section__list">
+              <li>Gathering feedback from participants and stakeholders to refine and enhance our programs.</li>
+              <li>Regularly updating our policies to reflect advancements in safety standards and best practices.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   );

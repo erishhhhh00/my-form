@@ -4,6 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Textarea } from '@/components/ui/textarea';
 import { useForm } from '@/context/FormContext';
 
 const FormPage11: React.FC = () => {
@@ -59,24 +60,39 @@ const FormPage11: React.FC = () => {
           <div className="space-y-3 mb-6 form-section">
             <h3 className="font-bold text-sm leading-relaxed">31. Which of the following is a typical telecom tower site hazard during work at height work? (1 Mark)</h3>
             
-            <div className="flex justify-center my-3 space-x-3">
-              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
-                <img src="images/image14.png" alt="Phone icon" className="w-full h-full object-contain" />
-              </div>
-              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
-                <img src="images/image15.png" alt="Warning hand" className="w-full h-full object-contain" />
-              </div>
-              <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
-                <img src="images/image16.png" alt="Car icon" className="w-full h-full object-contain" />
-              </div>
-            </div>
-
-            <Input
+            <RadioGroup
               value={pageData.question31}
-              onChange={(e) => handleInputChange('question31', e.target.value)}
-              placeholder="Enter your answer"
-              className="mt-2 text-xs"
-            />
+              onValueChange={(value) => handleInputChange('question31', value)}
+              className="flex justify-center my-3 space-x-6"
+            >
+              <div className="flex flex-col items-center space-y-2">
+                <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+                  <img src="images/image14.png" alt="Phone icon" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="A" id="q31-a" />
+                  <Label htmlFor="q31-a" className="font-medium cursor-pointer">A</Label>
+                </div>
+              </div>
+              <div className="flex flex-col items-center space-y-2">
+                <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+                  <img src="images/image15.png" alt="Warning hand" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="B" id="q31-b" />
+                  <Label htmlFor="q31-b" className="font-medium cursor-pointer">B</Label>
+                </div>
+              </div>
+              <div className="flex flex-col items-center space-y-2">
+                <div className="w-40 h-32 bg-gray-200 border-2 border-black rounded flex items-center justify-center overflow-hidden">
+                  <img src="images/image16.png" alt="Car icon" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="C" id="q31-c" />
+                  <Label htmlFor="q31-c" className="font-medium cursor-pointer">C</Label>
+                </div>
+              </div>
+            </RadioGroup>
           </div>
 
           {/* Question 32 - Risk Assessment Table */}
@@ -88,7 +104,7 @@ const FormPage11: React.FC = () => {
                 <TableHeader>
                   <TableRow className="bg-gray-100">
                     <TableHead className="border border-gray-400 text-left font-bold w-8 text-xs py-1" rowSpan={2}>Sr. No.</TableHead>
-                    <TableHead className="border border-gray-400 text-center font-bold w-20 text-xs py-1" rowSpan={2}>Activity</TableHead>
+                    <TableHead className="border border-gray-400 text-center font-bold w-32 text-xs py-1" rowSpan={2}>Activity</TableHead>
                     <TableHead className="border border-gray-400 text-center font-bold w-20 text-xs py-1" rowSpan={2}>Hazard</TableHead>
                     <TableHead className="border border-gray-400 text-center font-bold w-20 text-xs py-1" rowSpan={2}>Risk Involved</TableHead>
                     <TableHead className="border border-gray-400 text-center font-bold w-54 text-xs py-1" colSpan={3}>Risk Analysis</TableHead>
@@ -108,11 +124,11 @@ const FormPage11: React.FC = () => {
                   {[...Array(8)].map((_, index) => (
                     <TableRow key={index}>
                       <TableCell className="border border-gray-400 text-left w-8 py-1">{index + 1}</TableCell>
-                      <TableCell className="border border-gray-400 p-1 w-20">
+                      <TableCell className="border border-gray-400 p-1 w-32">
                         <Input
                           value={pageData.question32[index]?.activity || ''}
                           onChange={(e) => handleTableChange(index, 'activity', e.target.value)}
-                          className="border-0 bg-transparent text-xs w-full overflow-hidden"
+                          className="border-0 bg-transparent text-xs w-full overflow-hidden text-center"
                           style={{ maxWidth: '100%' }}
                         />
                       </TableCell>
